@@ -41,24 +41,25 @@ var paramLabels = svg.selectAll(".paramLabel")
 var heatmapChart = function(dataFile) {
 	d3.json(dataFile,
 		function(d) {
+			console.log(d);
 			return {
 			desc: d.nerd,
 			params: d.params,
 			score: d.score
 		};
 	},
-	function(error, data) {
+	function(data, error) {console.log("params"+data.params);
 		var colorScale = d3.scale.quantile()
-		.domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
+		.domain([0, buckets - 1, d3.max(data, function (d) { return d.score; })])
 		.range(colors);
 
-		var cards = svg.selectAll(".param")
+		var cards = svg.selectAll("rect")
 		.data(data, function(d) {return d.desc+':'+d.params;});
 
-		cards.append("title");
-
+		// cards.append("title");
+console.log("params"+data.params);
 		cards.enter().append("rect")
-		.attr("x", function(d) { return (d.params - 1) * gridSize; })
+		.attr("x", function(d) { console.log("params"+d.params);return (d.params - 1) * gridSize; })
 		.attr("y", function(d) { return (d.desc - 1) * gridSize; })
 		.attr("rx", 4)
 		.attr("ry", 4)
