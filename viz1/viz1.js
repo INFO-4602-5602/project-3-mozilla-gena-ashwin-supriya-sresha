@@ -48,6 +48,8 @@ var heatmapChart = function(dataFile) {
 		};
 	},
 	function(error, data) {
+
+		
 		var colorScale = d3.scale.quantile()
 		.domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
 		.range(colors);
