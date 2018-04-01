@@ -1,3 +1,11 @@
+// Set tooltips
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([100, 0])
+  .html(function(d) {
+    return "<strong>Score: </strong><span class='details'>" + format(d.score) + "</span>";
+  })
+
 var margin = { top: 50, right: 0, bottom: 100, left: 120 },
 	width = 1300 - margin.left - margin.right,
 	height = 1000 - margin.top - margin.bottom,
@@ -40,6 +48,8 @@ var paramLabels = svg.selectAll(".paramLabel")
 	.attr("class", function(d, i) { return ((i >= 0 && i <= 9) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); })
 	;
 
+// svg.call(tip);
+
 function heatmapChart(dataFile) {
 	d3.json(dataFile,
 	function(error, data) {
@@ -62,7 +72,29 @@ function heatmapChart(dataFile) {
 		.attr("class", "params bordered")
 		.attr("width", gridSize)
 		.attr("height", gridSize)
-		.style("fill", function(d) { return colorScale(d.score); });
+		.style("fill", function(d) { return colorScale(d.score); })
+		.style('stroke', 'white')
+    .style('stroke-width', 1.5)
+    .style("opacity", 0.8)
+    // tooltips
+    .style("stroke", "white")
+    .style('stroke-width', 0.3)
+    .on('mouseover', function(d) {
+      tip.show(d);
+
+      d3.select(this)
+        .style("opacity", 1)
+        .style("stroke", "white")
+        .style("stroke-width", 3);
+    })
+    .on('mouseout', function(d) {
+      tip.hide(d);
+
+      d3.select(this)
+        .style("opacity", 0.8)
+        .style("stroke", "white")
+        .style("stroke-width", 0.3);
+			});
 
 		cards.transition().duration(1000)
 		.style("fill", function(d) { return colorScale(d.score); });
