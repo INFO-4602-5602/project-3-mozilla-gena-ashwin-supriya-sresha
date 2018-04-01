@@ -7,7 +7,7 @@ Technically Savvy,Price,Indonesia,202.0000000000001
 Technically Savvy,Price,Mexico,1261.400000000001
 Technically Savvy,Price,Bolivia,66.69999999999997
 Technically Savvy,Price,Macau,1.2
-Technically Savvy,Price,United Kingdom,1067.2999999999988
+Technically Savvy,Price,England,1067.2999999999988
 Technically Savvy,Price,Tunisia,34.599999999999994
 Technically Savvy,Price,Egypt,32.199999999999996
 Technically Savvy,Price,Portugal,92.39999999999999
@@ -84,7 +84,7 @@ Technically Savvy,Price,Thailand,27.7
 Technically Savvy,Price,Lithuania,21.7
 Technically Savvy,Price,Singapore,45.20000000000001
 Technically Savvy,Price,Saudi Arabia,24.999999999999996
-Technically Savvy,Price,"Iran, Islamic Republic of",67.69999999999999
+Technically Savvy,Price,Iran, Islamic Republic of",67.69999999999999
 Technically Savvy,Price,Bulgaria,37.4
 Technically Savvy,Price,Jersey,2.4000000000000004
 Technically Savvy,Price,Trinidad and Tobago,5.6000000000000005
@@ -125,7 +125,7 @@ Technically Savvy,Price,Solomon Islands,1.7999999999999998
 Technically Savvy,Price,Malaysia,83.1
 Technically Savvy,Price,Gabon,8.4
 Technically Savvy,Price,Vietnam,18.2
-Technically Savvy,Price,Congo,3.1
+Technically Savvy,Price,Democratic Republic of the Congo,3.1
 Technically Savvy,Price,China,27.099999999999998
 Technically Savvy,Price,Senegal,20.499999999999996
 Technically Savvy,Price,Ukraine,11.299999999999999
@@ -140,7 +140,7 @@ Technically Savvy,Price,Oman,6.1
 Technically Savvy,Price,Madagascar,23.9
 Technically Savvy,Price,Ethiopia,2.8
 Technically Savvy,Price,Lesotho,1.0
-Technically Savvy,Price,"Tanzania, United Republic of",8.3
+Technically Savvy,Price,Tanzania,8.3
 Technically Savvy,Price,Europe,44.19999999999998
 Technically Savvy,Price,Cyprus,6.3999999999999995
 Technically Savvy,Price,Sudan,2.6999999999999997
@@ -159,7 +159,7 @@ Technically Savvy,Price,Burundi,1.1
 Technically Savvy,Price,Montenegro,6.000000000000001
 Technically Savvy,Price,Mongolia,3.4
 Technically Savvy,Price,"Moldova, Republic of",1.0
-Technically Savvy,Price,"Congo, The Democratic Republic of the",4.0
+Technically Savvy,Price,"Democratic Republic of the Congo, The Democratic Republic of the",4.0
 Technically Savvy,Price,Syrian Arab Republic,7.300000000000001
 Technically Savvy,Price,Iraq,8.200000000000001
 Technically Savvy,Price,Barbados,1.9
@@ -195,7 +195,7 @@ Technically Savvy,Features,Indonesia,204.50000000000028
 Technically Savvy,Features,Mexico,1363.7000000000023
 Technically Savvy,Features,Bolivia,69.89999999999999
 Technically Savvy,Features,Macau,1.4
-Technically Savvy,Features,United Kingdom,1127.1999999999973
+Technically Savvy,Features,England,1127.1999999999973
 Technically Savvy,Features,Tunisia,43.09999999999999
 Technically Savvy,Features,Egypt,34.9
 Technically Savvy,Features,Portugal,88.70000000000003
@@ -273,7 +273,7 @@ Technically Savvy,Features,Thailand,32.599999999999994
 Technically Savvy,Features,Lithuania,20.099999999999994
 Technically Savvy,Features,Singapore,44.49999999999999
 Technically Savvy,Features,Saudi Arabia,28.6
-Technically Savvy,Features,"Iran, Islamic Republic of",69.09999999999998
+Technically Savvy,Features,Iran, Islamic Republic of",69.09999999999998
 Technically Savvy,Features,Bulgaria,39.39999999999999
 Technically Savvy,Features,Jersey,3.3
 Technically Savvy,Features,Trinidad and Tobago,6.8999999999999995
@@ -312,7 +312,7 @@ Technically Savvy,Features,Zimbabwe,11.2
 Technically Savvy,Features,Saint Pierre and Miquelon,1.7999999999999998
 Technically Savvy,Features,Cote D'Ivoire,40.3
 Technically Savvy,Features,Malaysia,88.00000000000004
-Technically Savvy,Features,Congo,3.5999999999999996
+Technically Savvy,Features,Democratic Republic of the Congo,3.5999999999999996
 Technically Savvy,Features,China,25.79999999999999
 Technically Savvy,Features,Senegal,21.500000000000004
 Technically Savvy,Features,Vietnam,18.400000000000002
@@ -327,7 +327,7 @@ Technically Savvy,Features,Madagascar,27.399999999999995
 Technically Savvy,Features,Myanmar,10.799999999999999
 Technically Savvy,Features,Ethiopia,3.3
 Technically Savvy,Features,Lesotho,1.7
-Technically Savvy,Features,"Tanzania, United Republic of",10.499999999999998
+Technically Savvy,Features,Tanzania,10.499999999999998
 Technically Savvy,Features,Europe,48.2
 Technically Savvy,Features,Cyprus,5.199999999999999
 Technically Savvy,Features,Sudan,2.9
@@ -347,7 +347,7 @@ Technically Savvy,Features,Burundi,1.1
 Technically Savvy,Features,Montenegro,4.6
 Technically Savvy,Features,Mongolia,3.4
 Technically Savvy,Features,"Moldova, Republic of",0.1
-Technically Savvy,Features,"Congo, The Democratic Republic of the",4.7
+Technically Savvy,Features,"Democratic Republic of the Congo, The Democratic Republic of the",4.7
 Technically Savvy,Features,Syrian Arab Republic,7.4
 Technically Savvy,Features,Iraq,9.2
 Technically Savvy,Features,Barbados,2.2
@@ -383,7 +383,7 @@ Technically Savvy,Reliability,Switzerland,526.1999999999987
 Technically Savvy,Reliability,Brazil,1406.8000000000004
 Technically Savvy,Reliability,USA,2019.400000000003
 Technically Savvy,Reliability,Turkey,27.199999999999996
-Technically Savvy,Reliability,United Kingdom,586.5999999999993
+Technically Savvy,Reliability,England,586.5999999999993
 Technically Savvy,Reliability,Russia,27.29999999999999
 Technically Savvy,Reliability,Estonia,14.399999999999999
 Technically Savvy,Reliability,Latvia,10.299999999999999
@@ -403,7 +403,7 @@ Technically Savvy,Reliability,Hungary,17.200000000000003
 Technically Savvy,Reliability,Belgium,296.80000000000024
 Technically Savvy,Reliability,Austria,328.1
 Technically Savvy,Reliability,Portugal,50.99999999999999
-Technically Savvy,Reliability,"Iran, Islamic Republic of",35.400000000000006
+Technically Savvy,Reliability,Iran, Islamic Republic of",35.400000000000006
 Technically Savvy,Reliability,Bulgaria,25.900000000000002
 Technically Savvy,Reliability,Ghana,13.799999999999999
 Technically Savvy,Reliability,Solomon Islands,1.5
@@ -412,7 +412,7 @@ Technically Savvy,Reliability,Indonesia,94.69999999999997
 Technically Savvy,Reliability,Mexico,444.1999999999999
 Technically Savvy,Reliability,Taiwan,7.3999999999999995
 Technically Savvy,Reliability,Morocco,48.60000000000001
-Technically Savvy,Reliability,Congo,2.3999999999999995
+Technically Savvy,Reliability,Democratic Republic of the Congo,2.3999999999999995
 Technically Savvy,Reliability,China,24.099999999999998
 Technically Savvy,Reliability,India,551.3999999999996
 Technically Savvy,Reliability,Senegal,15.599999999999998
@@ -484,7 +484,7 @@ Technically Savvy,Reliability,Ethiopia,2.1999999999999997
 Technically Savvy,Reliability,Luxembourg,28.8
 Technically Savvy,Reliability,Lesotho,1.4
 Technically Savvy,Reliability,Anonymous Proxy,3.0999999999999996
-Technically Savvy,Reliability,"Tanzania, United Republic of",8.399999999999999
+Technically Savvy,Reliability,Tanzania,8.399999999999999
 Technically Savvy,Reliability,Europe,30.799999999999997
 Technically Savvy,Reliability,Namibia,1.8
 Technically Savvy,Reliability,Zimbabwe,7.8999999999999995
@@ -522,7 +522,7 @@ Technically Savvy,Reliability,Montenegro,2.4
 Technically Savvy,Reliability,Bahamas,1.6
 Technically Savvy,Reliability,Guinea,1.2
 Technically Savvy,Reliability,"Moldova, Republic of",0.7999999999999999
-Technically Savvy,Reliability,"Congo, The Democratic Republic of the",2.6
+Technically Savvy,Reliability,"Democratic Republic of the Congo, The Democratic Republic of the",2.6
 Technically Savvy,Reliability,Syrian Arab Republic,5.1
 Technically Savvy,Reliability,Macedonia,2.7
 Technically Savvy,Reliability,Azerbaijan,1.5
@@ -566,7 +566,7 @@ Technically Savvy,User Reviews,Switzerland,266.3999999999995
 Technically Savvy,User Reviews,Turkey,19.699999999999992
 Technically Savvy,User Reviews,Thailand,13.7
 Technically Savvy,User Reviews,Brazil,833.9000000000011
-Technically Savvy,User Reviews,United Kingdom,410.69999999999897
+Technically Savvy,User Reviews,England,410.69999999999897
 Technically Savvy,User Reviews,New Zealand,36.10000000000001
 Technically Savvy,User Reviews,Latvia,5.0
 Technically Savvy,User Reviews,Denmark,20.9
@@ -590,7 +590,7 @@ Technically Savvy,User Reviews,Paraguay,26.00000000000001
 Technically Savvy,User Reviews,Vietnam,9.7
 Technically Savvy,User Reviews,Belgium,160.79999999999978
 Technically Savvy,User Reviews,Taiwan,4.1
-Technically Savvy,User Reviews,Congo,1.0999999999999999
+Technically Savvy,User Reviews,Democratic Republic of the Congo,1.0999999999999999
 Technically Savvy,User Reviews,China,12.999999999999995
 Technically Savvy,User Reviews,Senegal,7.999999999999999
 Technically Savvy,User Reviews,Martinique,2.1000000000000005
@@ -644,7 +644,7 @@ Technically Savvy,User Reviews,Oman,3.5
 Technically Savvy,User Reviews,Norway,24.800000000000004
 Technically Savvy,User Reviews,Bosnia and Herzegovina,9.399999999999999
 Technically Savvy,User Reviews,Reunion,24.499999999999996
-Technically Savvy,User Reviews,"Iran, Islamic Republic of",26.2
+Technically Savvy,User Reviews,Iran, Islamic Republic of",26.2
 Technically Savvy,User Reviews,South Africa,33.400000000000006
 Technically Savvy,User Reviews,Madagascar,9.699999999999998
 Technically Savvy,User Reviews,Tunisia,12.600000000000001
@@ -659,7 +659,7 @@ Technically Savvy,User Reviews,Myanmar,2.8999999999999995
 Technically Savvy,User Reviews,Ethiopia,2.3000000000000003
 Technically Savvy,User Reviews,Estonia,9.799999999999999
 Technically Savvy,User Reviews,Lesotho,0.3
-Technically Savvy,User Reviews,"Tanzania, United Republic of",5.6000000000000005
+Technically Savvy,User Reviews,Tanzania,5.6000000000000005
 Technically Savvy,User Reviews,Europe,19.2
 Technically Savvy,User Reviews,Namibia,0.8999999999999999
 Technically Savvy,User Reviews,Zimbabwe,3.8999999999999995
@@ -699,7 +699,7 @@ Technically Savvy,User Reviews,Montenegro,1.9999999999999998
 Technically Savvy,User Reviews,Bahamas,1.7
 Technically Savvy,User Reviews,Guinea,0.19999999999999998
 Technically Savvy,User Reviews,"Moldova, Republic of",0.4
-Technically Savvy,User Reviews,"Congo, The Democratic Republic of the",1.0999999999999999
+Technically Savvy,User Reviews,"Democratic Republic of the Congo, The Democratic Republic of the",1.0999999999999999
 Technically Savvy,User Reviews,Syrian Arab Republic,2.4
 Technically Savvy,User Reviews,Macedonia,3.4
 Technically Savvy,User Reviews,Azerbaijan,0.4
@@ -743,7 +743,7 @@ Technically Savvy,Convenience,Spain,222.29999999999984
 Technically Savvy,Convenience,Canada,112.09999999999992
 Technically Savvy,Convenience,USA,358.59999999999974
 Technically Savvy,Convenience,Brazil,376.4000000000007
-Technically Savvy,Convenience,United Kingdom,92.99999999999999
+Technically Savvy,Convenience,England,92.99999999999999
 Technically Savvy,Convenience,Estonia,5.8999999999999995
 Technically Savvy,Convenience,Venezuela,46.60000000000001
 Technically Savvy,Convenience,French Guiana,7.0
@@ -777,7 +777,7 @@ Technically Savvy,Convenience,Netherlands,18.600000000000005
 Technically Savvy,Convenience,Uganda,1.5
 Technically Savvy,Convenience,Russia,8.0
 Technically Savvy,Convenience,Europe,9.1
-Technically Savvy,Convenience,"Iran, Islamic Republic of",7.1000000000000005
+Technically Savvy,Convenience,Iran, Islamic Republic of",7.1000000000000005
 Technically Savvy,Convenience,Israel,3.8000000000000003
 Technically Savvy,Convenience,Portugal,8.999999999999998
 Technically Savvy,Convenience,Bangladesh,9.7
@@ -817,10 +817,10 @@ Technically Savvy,Convenience,Sweden,5.9
 Technically Savvy,Convenience,Ireland,5.6
 Technically Savvy,Convenience,Zimbabwe,2.8000000000000003
 Technically Savvy,Convenience,Latvia,3.3999999999999995
-Technically Savvy,Convenience,Congo,1.0
+Technically Savvy,Convenience,Democratic Republic of the Congo,1.0
 Technically Savvy,Convenience,Pakistan,8.499999999999998
 Technically Savvy,Convenience,Nigeria,7.8
-Technically Savvy,Convenience,"Congo, The Democratic Republic of the",1.2
+Technically Savvy,Convenience,"Democratic Republic of the Congo, The Democratic Republic of the",1.2
 Technically Savvy,Convenience,Zambia,0.6
 Technically Savvy,Convenience,Monaco,3.4999999999999996
 Technically Savvy,Convenience,Finland,4.8999999999999995
@@ -841,7 +841,7 @@ Technically Savvy,Convenience,Guadeloupe,3.5
 Technically Savvy,Convenience,Puerto Rico,4.1000000000000005
 Technically Savvy,Convenience,Sri Lanka,2.9
 Technically Savvy,Convenience,Haiti,1.9
-Technically Savvy,Convenience,"Tanzania, United Republic of",1.1
+Technically Savvy,Convenience,Tanzania,1.1
 Technically Savvy,Convenience,Cuba,2.6999999999999997
 Technically Savvy,Convenience,Ukraine,0.7
 Technically Savvy,Convenience,Mauritania,0.7999999999999999
@@ -891,7 +891,7 @@ Technically Savvy,Expert Recommendation,Bolivia,15.800000000000002
 Technically Savvy,Expert Recommendation,USA,494.50000000000153
 Technically Savvy,Expert Recommendation,Switzerland,116.59999999999991
 Technically Savvy,Expert Recommendation,Thailand,4.8999999999999995
-Technically Savvy,Expert Recommendation,United Kingdom,139.49999999999991
+Technically Savvy,Expert Recommendation,England,139.49999999999991
 Technically Savvy,Expert Recommendation,France,906.0000000000088
 Technically Savvy,Expert Recommendation,Brazil,478.89999999999964
 Technically Savvy,Expert Recommendation,Spain,227.6
@@ -902,7 +902,7 @@ Technically Savvy,Expert Recommendation,Australia,76.89999999999999
 Technically Savvy,Expert Recommendation,Guatemala,21.300000000000004
 Technically Savvy,Expert Recommendation,New Zealand,21.400000000000002
 Technically Savvy,Expert Recommendation,Belgium,70.39999999999998
-Technically Savvy,Expert Recommendation,"Iran, Islamic Republic of",18.300000000000004
+Technically Savvy,Expert Recommendation,Iran, Islamic Republic of",18.300000000000004
 Technically Savvy,Expert Recommendation,Colombia,106.39999999999998
 Technically Savvy,Expert Recommendation,Solomon Islands,0.9999999999999999
 Technically Savvy,Expert Recommendation,Greece,15.399999999999993
@@ -951,10 +951,10 @@ Technically Savvy,Expert Recommendation,Ireland,11.799999999999999
 Technically Savvy,Expert Recommendation,Zimbabwe,1.7999999999999998
 Technically Savvy,Expert Recommendation,Ghana,6.4
 Technically Savvy,Expert Recommendation,Netherlands,22.3
-Technically Savvy,Expert Recommendation,Congo,0.5
+Technically Savvy,Expert Recommendation,Democratic Republic of the Congo,0.5
 Technically Savvy,Expert Recommendation,Pakistan,17.3
 Technically Savvy,Expert Recommendation,Cambodia,1.2
-Technically Savvy,Expert Recommendation,"Congo, The Democratic Republic of the",1.5
+Technically Savvy,Expert Recommendation,"Democratic Republic of the Congo, The Democratic Republic of the",1.5
 Technically Savvy,Expert Recommendation,Zambia,1.0
 Technically Savvy,Expert Recommendation,Monaco,1.9
 Technically Savvy,Expert Recommendation,Finland,9.5
@@ -980,7 +980,7 @@ Technically Savvy,Expert Recommendation,Puerto Rico,6.199999999999999
 Technically Savvy,Expert Recommendation,nan,3.8
 Technically Savvy,Expert Recommendation,Sri Lanka,4.999999999999999
 Technically Savvy,Expert Recommendation,Haiti,1.0999999999999999
-Technically Savvy,Expert Recommendation,"Tanzania, United Republic of",1.7
+Technically Savvy,Expert Recommendation,Tanzania,1.7
 Technically Savvy,Expert Recommendation,Estonia,4.9
 Technically Savvy,Expert Recommendation,Cuba,3.1999999999999997
 Technically Savvy,Expert Recommendation,Ukraine,0.4
@@ -1053,7 +1053,7 @@ Technically Savvy,Privacy,Italy,2473.4000000000065
 Technically Savvy,Privacy,Spain,604.5999999999997
 Technically Savvy,Privacy,USA,1975.200000000003
 Technically Savvy,Privacy,Canada,442.4999999999992
-Technically Savvy,Privacy,United Kingdom,570.1999999999995
+Technically Savvy,Privacy,England,570.1999999999995
 Technically Savvy,Privacy,Denmark,28.999999999999996
 Technically Savvy,Privacy,Mexico,613.5000000000001
 Technically Savvy,Privacy,Venezuela,122.7999999999999
@@ -1070,7 +1070,7 @@ Technically Savvy,Privacy,Indonesia,120.89999999999998
 Technically Savvy,Privacy,Taiwan,10.4
 Technically Savvy,Privacy,Morocco,58.29999999999997
 Technically Savvy,Privacy,Switzerland,466.89999999999964
-Technically Savvy,Privacy,Congo,2.1999999999999997
+Technically Savvy,Privacy,Democratic Republic of the Congo,2.1999999999999997
 Technically Savvy,Privacy,China,16.400000000000002
 Technically Savvy,Privacy,Uruguay,38.199999999999996
 Technically Savvy,Privacy,India,636.6999999999996
@@ -1136,7 +1136,7 @@ Technically Savvy,Privacy,Israel,26.900000000000002
 Technically Savvy,Privacy,Afghanistan,1.9
 Technically Savvy,Privacy,Kenya,35.699999999999996
 Technically Savvy,Privacy,Oman,4.5
-Technically Savvy,Privacy,"Iran, Islamic Republic of",38.70000000000001
+Technically Savvy,Privacy,Iran, Islamic Republic of",38.70000000000001
 Technically Savvy,Privacy,Bosnia and Herzegovina,7.099999999999999
 Technically Savvy,Privacy,South Africa,55.49999999999999
 Technically Savvy,Privacy,Latvia,7.0
@@ -1153,7 +1153,7 @@ Technically Savvy,Privacy,Myanmar,6.3
 Technically Savvy,Privacy,Ethiopia,2.0999999999999996
 Technically Savvy,Privacy,Estonia,10.399999999999999
 Technically Savvy,Privacy,Lesotho,1.2999999999999998
-Technically Savvy,Privacy,"Tanzania, United Republic of",6.199999999999999
+Technically Savvy,Privacy,Tanzania,6.199999999999999
 Technically Savvy,Privacy,Europe,24.700000000000003
 Technically Savvy,Privacy,Namibia,1.6999999999999997
 Technically Savvy,Privacy,Zimbabwe,6.800000000000001
@@ -1193,7 +1193,7 @@ Technically Savvy,Privacy,Guinea,1.5
 Technically Savvy,Privacy,Bahamas,0.29999999999999993
 Technically Savvy,Privacy,"Moldova, Republic of",0.7
 Technically Savvy,Privacy,Ghana,14.3
-Technically Savvy,Privacy,"Congo, The Democratic Republic of the",2.6
+Technically Savvy,Privacy,"Democratic Republic of the Congo, The Democratic Republic of the",2.6
 Technically Savvy,Privacy,Zambia,2.5999999999999996
 Technically Savvy,Privacy,Syrian Arab Republic,6.2
 Technically Savvy,Privacy,Macedonia,3.8999999999999995
@@ -1242,13 +1242,13 @@ Technically Savvy,Security,Australia,301.9000000000002
 Technically Savvy,Security,Italy,2307.300000000002
 Technically Savvy,Security,Indonesia,134.80000000000004
 Technically Savvy,Security,Mexico,583.3999999999996
-Technically Savvy,Security,United Kingdom,643.0999999999988
+Technically Savvy,Security,England,643.0999999999988
 Technically Savvy,Security,Vietnam,12.400000000000002
 Technically Savvy,Security,Belgium,255.30000000000007
 Technically Savvy,Security,Taiwan,8.1
 Technically Savvy,Security,Morocco,68.10000000000001
 Technically Savvy,Security,Switzerland,475.7000000000005
-Technically Savvy,Security,Congo,2.5
+Technically Savvy,Security,Democratic Republic of the Congo,2.5
 Technically Savvy,Security,China,21.4
 Technically Savvy,Security,Uruguay,39.7
 Technically Savvy,Security,India,725.7999999999994
@@ -1316,7 +1316,7 @@ Technically Savvy,Security,Afghanistan,2.4
 Technically Savvy,Security,Kenya,43.1
 Technically Savvy,Security,Greece,61.49999999999998
 Technically Savvy,Security,Oman,5.2
-Technically Savvy,Security,"Iran, Islamic Republic of",42.999999999999986
+Technically Savvy,Security,Iran, Islamic Republic of",42.999999999999986
 Technically Savvy,Security,Bosnia and Herzegovina,9.399999999999999
 Technically Savvy,Security,South Africa,63.60000000000001
 Technically Savvy,Security,Latvia,7.4
@@ -1335,7 +1335,7 @@ Technically Savvy,Security,Ethiopia,2.8
 Technically Savvy,Security,Estonia,11.600000000000001
 Technically Savvy,Security,Lesotho,1.6
 Technically Savvy,Security,Anonymous Proxy,6.599999999999999
-Technically Savvy,Security,"Tanzania, United Republic of",6.8999999999999995
+Technically Savvy,Security,Tanzania,6.8999999999999995
 Technically Savvy,Security,Europe,25.899999999999995
 Technically Savvy,Security,Namibia,2.0
 Technically Savvy,Security,Zimbabwe,7.8999999999999995
@@ -1376,7 +1376,7 @@ Technically Savvy,Security,Guinea,2.3
 Technically Savvy,Security,Mongolia,1.4
 Technically Savvy,Security,"Moldova, Republic of",0.5
 Technically Savvy,Security,Ghana,17.299999999999997
-Technically Savvy,Security,"Congo, The Democratic Republic of the",4.199999999999999
+Technically Savvy,Security,"Democratic Republic of the Congo, The Democratic Republic of the",4.199999999999999
 Technically Savvy,Security,Zambia,2.8
 Technically Savvy,Security,Syrian Arab Republic,4.9
 Technically Savvy,Security,Macedonia,4.5
@@ -1427,12 +1427,12 @@ Technically Savvy,Safety,Italy,2573.4000000000074
 Technically Savvy,Safety,Indonesia,134.5
 Technically Savvy,Safety,Paraguay,27.0
 Technically Savvy,Safety,Mexico,692.3999999999996
-Technically Savvy,Safety,United Kingdom,497.3000000000006
+Technically Savvy,Safety,England,497.3000000000006
 Technically Savvy,Safety,Belgium,213.90000000000026
 Technically Savvy,Safety,Taiwan,8.0
 Technically Savvy,Safety,Morocco,55.7
 Technically Savvy,Safety,Switzerland,376.4000000000003
-Technically Savvy,Safety,Congo,1.9
+Technically Savvy,Safety,Democratic Republic of the Congo,1.9
 Technically Savvy,Safety,China,17.700000000000003
 Technically Savvy,Safety,India,664.9999999999991
 Technically Savvy,Safety,Peru,85.59999999999997
@@ -1501,7 +1501,7 @@ Technically Savvy,Safety,Afghanistan,2.5999999999999996
 Technically Savvy,Safety,Kenya,41.10000000000001
 Technically Savvy,Safety,Greece,55.00000000000001
 Technically Savvy,Safety,Oman,5.0
-Technically Savvy,Safety,"Iran, Islamic Republic of",33.8
+Technically Savvy,Safety,Iran, Islamic Republic of",33.8
 Technically Savvy,Safety,Bosnia and Herzegovina,9.3
 Technically Savvy,Safety,South Africa,51.699999999999996
 Technically Savvy,Safety,Latvia,6.3
@@ -1520,7 +1520,7 @@ Technically Savvy,Safety,Saudi Arabia,13.7
 Technically Savvy,Safety,Ethiopia,2.6999999999999997
 Technically Savvy,Safety,Estonia,9.6
 Technically Savvy,Safety,Lesotho,1.2
-Technically Savvy,Safety,"Tanzania, United Republic of",7.1000000000000005
+Technically Savvy,Safety,Tanzania,7.1000000000000005
 Technically Savvy,Safety,Europe,21.999999999999993
 Technically Savvy,Safety,Namibia,1.5
 Technically Savvy,Safety,Zimbabwe,7.8
@@ -1560,7 +1560,7 @@ Technically Savvy,Safety,Bahamas,0.4
 Technically Savvy,Safety,Mongolia,0.9999999999999999
 Technically Savvy,Safety,"Moldova, Republic of",0.6
 Technically Savvy,Safety,Ghana,15.900000000000002
-Technically Savvy,Safety,"Congo, The Democratic Republic of the",3.3999999999999995
+Technically Savvy,Safety,"Democratic Republic of the Congo, The Democratic Republic of the",3.3999999999999995
 Technically Savvy,Safety,Zambia,2.8000000000000003
 Technically Savvy,Safety,Syrian Arab Republic,4.3999999999999995
 Technically Savvy,Safety,Macedonia,4.199999999999999
@@ -1615,10 +1615,10 @@ Technically Savvy,Friend or Family Recommendation,France,741.5000000000102
 Technically Savvy,Friend or Family Recommendation,Indonesia,28.000000000000007
 Technically Savvy,Friend or Family Recommendation,Chile,35.90000000000002
 Technically Savvy,Friend or Family Recommendation,Germany,670.4000000000071
-Technically Savvy,Friend or Family Recommendation,"Iran, Islamic Republic of",11.399999999999993
+Technically Savvy,Friend or Family Recommendation,Iran, Islamic Republic of",11.399999999999993
 Technically Savvy,Friend or Family Recommendation,"Korea, Republic of",1.9999999999999998
 Technically Savvy,Friend or Family Recommendation,Austria,69.0
-Technically Savvy,Friend or Family Recommendation,United Kingdom,95.1
+Technically Savvy,Friend or Family Recommendation,England,95.1
 Technically Savvy,Friend or Family Recommendation,Switzerland,94.79999999999995
 Technically Savvy,Friend or Family Recommendation,Hungary,3.8000000000000003
 Technically Savvy,Friend or Family Recommendation,Russia,2.3000000000000003
@@ -1668,11 +1668,11 @@ Technically Savvy,Friend or Family Recommendation,Ireland,6.699999999999999
 Technically Savvy,Friend or Family Recommendation,Zimbabwe,1.0999999999999999
 Technically Savvy,Friend or Family Recommendation,Ghana,5.1
 Technically Savvy,Friend or Family Recommendation,Netherlands,15.099999999999993
-Technically Savvy,Friend or Family Recommendation,Congo,0.1
+Technically Savvy,Friend or Family Recommendation,Democratic Republic of the Congo,0.1
 Technically Savvy,Friend or Family Recommendation,Greece,7.899999999999998
 Technically Savvy,Friend or Family Recommendation,Pakistan,12.199999999999994
 Technically Savvy,Friend or Family Recommendation,Nigeria,9.699999999999996
-Technically Savvy,Friend or Family Recommendation,"Congo, The Democratic Republic of the",1.4
+Technically Savvy,Friend or Family Recommendation,"Democratic Republic of the Congo, The Democratic Republic of the",1.4
 Technically Savvy,Friend or Family Recommendation,Monaco,1.5999999999999999
 Technically Savvy,Friend or Family Recommendation,Finland,6.9
 Technically Savvy,Friend or Family Recommendation,Slovakia,3.1999999999999993
@@ -1698,7 +1698,7 @@ Technically Savvy,Friend or Family Recommendation,Malta,0.7999999999999999
 Technically Savvy,Friend or Family Recommendation,Sri Lanka,2.1
 Technically Savvy,Friend or Family Recommendation,Dominican Republic,3.0000000000000004
 Technically Savvy,Friend or Family Recommendation,Haiti,0.3999999999999999
-Technically Savvy,Friend or Family Recommendation,"Tanzania, United Republic of",0.5
+Technically Savvy,Friend or Family Recommendation,Tanzania,0.5
 Technically Savvy,Friend or Family Recommendation,Estonia,4.0
 Technically Savvy,Friend or Family Recommendation,Benin,1.2999999999999998
 Technically Savvy,Friend or Family Recommendation,Ukraine,0.19999999999999998
@@ -1765,12 +1765,12 @@ Average User,Price,USA,4187.20000000003
 Average User,Price,France,5515.999999999985
 Average User,Price,Egypt,13.200000000000001
 Average User,Price,India,515.8999999999997
-Average User,Price,United Kingdom,1008.0999999999972
+Average User,Price,England,1008.0999999999972
 Average User,Price,Finland,23.3
 Average User,Price,Indonesia,169.00000000000009
 Average User,Price,Australia,570.7999999999993
 Average User,Price,Croatia,27.9
-Average User,Price,"Iran, Islamic Republic of",23.700000000000003
+Average User,Price,Iran, Islamic Republic of",23.700000000000003
 Average User,Price,Guyana,3.3999999999999995
 Average User,Price,Armenia,1.6
 Average User,Price,Brazil,2435.800000000012
@@ -1895,7 +1895,7 @@ Average User,Price,Cyprus,7.1
 Average User,Price,Botswana,3.5999999999999996
 Average User,Price,Jersey,3.7
 Average User,Price,San Marino,3.4
-Average User,Price,Congo,0.7999999999999999
+Average User,Price,Democratic Republic of the Congo,0.7999999999999999
 Average User,Price,Mali,3.9
 Average User,Price,Albania,9.9
 Average User,Price,Iraq,1.9999999999999998
@@ -1916,9 +1916,9 @@ Average User,Price,Lesotho,0.7999999999999999
 Average User,Price,Mozambique,7.1
 Average User,Price,Cape Verde,2.6
 Average User,Price,Kuwait,4.3
-Average User,Price,"Tanzania, United Republic of",7.5
+Average User,Price,Tanzania,7.5
 Average User,Price,Haiti,3.2
-Average User,Price,"Congo, The Democratic Republic of the",3.3000000000000003
+Average User,Price,"Democratic Republic of the Congo, The Democratic Republic of the",3.3000000000000003
 Average User,Price,Monaco,5.2
 Average User,Price,Aruba,0.1
 Average User,Price,"Moldova, Republic of",1.9
@@ -1950,12 +1950,12 @@ Average User,Features,USA,3779.900000000046
 Average User,Features,France,5110.200000000023
 Average User,Features,Egypt,9.799999999999999
 Average User,Features,India,531.3999999999984
-Average User,Features,United Kingdom,877.0999999999974
+Average User,Features,England,877.0999999999974
 Average User,Features,Finland,24.999999999999996
 Average User,Features,Indonesia,141.1000000000001
 Average User,Features,Australia,535.5999999999989
 Average User,Features,Croatia,23.099999999999998
-Average User,Features,"Iran, Islamic Republic of",23.199999999999996
+Average User,Features,Iran, Islamic Republic of",23.199999999999996
 Average User,Features,Guyana,2.7
 Average User,Features,Armenia,1.4
 Average User,Features,Brazil,2364.400000000028
@@ -2080,7 +2080,7 @@ Average User,Features,Cyprus,6.4
 Average User,Features,Botswana,2.1
 Average User,Features,Jersey,3.6999999999999997
 Average User,Features,San Marino,4.3999999999999995
-Average User,Features,Congo,0.6
+Average User,Features,Democratic Republic of the Congo,0.6
 Average User,Features,Mali,5.5
 Average User,Features,Iraq,2.1
 Average User,Features,Equatorial Guinea,1.8
@@ -2100,9 +2100,9 @@ Average User,Features,Lesotho,0.6
 Average User,Features,Mozambique,5.7
 Average User,Features,Cape Verde,3.8
 Average User,Features,Kuwait,5.1
-Average User,Features,"Tanzania, United Republic of",5.3999999999999995
+Average User,Features,Tanzania,5.3999999999999995
 Average User,Features,Haiti,3.1999999999999997
-Average User,Features,"Congo, The Democratic Republic of the",3.6999999999999997
+Average User,Features,"Democratic Republic of the Congo, The Democratic Republic of the",3.6999999999999997
 Average User,Features,Monaco,4.3999999999999995
 Average User,Features,Aruba,1.0
 Average User,Features,"Moldova, Republic of",0.7
@@ -2139,7 +2139,7 @@ Average User,Privacy,France,3590.4000000000246
 Average User,Privacy,Russia,5.199999999999999
 Average User,Privacy,USA,2056.5000000000045
 Average User,Privacy,Ecuador,142.9
-Average User,Privacy,United Kingdom,565.1999999999994
+Average User,Privacy,England,565.1999999999994
 Average User,Privacy,South Africa,48.79999999999999
 Average User,Privacy,Canada,465.49999999999994
 Average User,Privacy,Netherlands,63.99999999999999
@@ -2190,7 +2190,7 @@ Average User,Privacy,United Arab Emirates,12.699999999999998
 Average User,Privacy,Bangladesh,26.9
 Average User,Privacy,Myanmar,12.4
 Average User,Privacy,Saudi Arabia,3.5
-Average User,Privacy,"Iran, Islamic Republic of",14.299999999999999
+Average User,Privacy,Iran, Islamic Republic of",14.299999999999999
 Average User,Privacy,Iceland,2.8
 Average User,Privacy,Israel,12.599999999999998
 Average User,Privacy,Greece,28.599999999999998
@@ -2241,7 +2241,7 @@ Average User,Privacy,Czech Republic,10.600000000000001
 Average User,Privacy,Guernsey,0.7
 Average User,Privacy,Slovenia,3.8
 Average User,Privacy,Bulgaria,4.699999999999998
-Average User,Privacy,Congo,0.7
+Average User,Privacy,Democratic Republic of the Congo,0.7
 Average User,Privacy,Qatar,1.6999999999999997
 Average User,Privacy,Mali,5.999999999999999
 Average User,Privacy,Benin,6.1
@@ -2270,10 +2270,10 @@ Average User,Privacy,Lesotho,0.4
 Average User,Privacy,Mozambique,3.0999999999999996
 Average User,Privacy,Cape Verde,1.7
 Average User,Privacy,Kuwait,1.5999999999999996
-Average User,Privacy,"Tanzania, United Republic of",5.2
+Average User,Privacy,Tanzania,5.2
 Average User,Privacy,Djibouti,1.2999999999999998
 Average User,Privacy,Haiti,2.6
-Average User,Privacy,"Congo, The Democratic Republic of the",2.6999999999999997
+Average User,Privacy,"Democratic Republic of the Congo, The Democratic Republic of the",2.6999999999999997
 Average User,Privacy,Monaco,2.5999999999999996
 Average User,Privacy,Aruba,0.5
 Average User,Privacy,"Moldova, Republic of",0.5
@@ -2306,7 +2306,7 @@ Average User,Reliability,France,3620.5000000000564
 Average User,Reliability,Germany,3322.300000000046
 Average User,Reliability,Italy,3860.9000000000806
 Average User,Reliability,Russia,8.7
-Average User,Reliability,United Kingdom,627.0999999999988
+Average User,Reliability,England,627.0999999999988
 Average User,Reliability,USA,2162.700000000004
 Average User,Reliability,Belgium,298.3000000000001
 Average User,Reliability,Canada,509.7999999999994
@@ -2367,7 +2367,7 @@ Average User,Reliability,Honduras,11.800000000000002
 Average User,Reliability,Bangladesh,27.39999999999999
 Average User,Reliability,Myanmar,10.500000000000002
 Average User,Reliability,Saudi Arabia,5.1
-Average User,Reliability,"Iran, Islamic Republic of",11.7
+Average User,Reliability,Iran, Islamic Republic of",11.7
 Average User,Reliability,Iceland,2.9
 Average User,Reliability,Israel,11.6
 Average User,Reliability,Portugal,28.899999999999995
@@ -2414,7 +2414,7 @@ Average User,Reliability,Czech Republic,11.4
 Average User,Reliability,Guernsey,1.5999999999999999
 Average User,Reliability,Slovenia,4.1
 Average User,Reliability,Bulgaria,6.8999999999999995
-Average User,Reliability,Congo,0.29999999999999993
+Average User,Reliability,Democratic Republic of the Congo,0.29999999999999993
 Average User,Reliability,Qatar,3.3
 Average User,Reliability,Mali,5.699999999999999
 Average User,Reliability,Benin,6.7
@@ -2443,10 +2443,10 @@ Average User,Reliability,Cuba,6.999999999999999
 Average User,Reliability,Lesotho,0.5
 Average User,Reliability,Mozambique,3.4999999999999996
 Average User,Reliability,Kuwait,2.6999999999999997
-Average User,Reliability,"Tanzania, United Republic of",5.6
+Average User,Reliability,Tanzania,5.6
 Average User,Reliability,Djibouti,0.6
 Average User,Reliability,Haiti,2.4
-Average User,Reliability,"Congo, The Democratic Republic of the",3.0
+Average User,Reliability,"Democratic Republic of the Congo, The Democratic Republic of the",3.0
 Average User,Reliability,Monaco,2.3
 Average User,Reliability,Aruba,0.29999999999999993
 Average User,Reliability,"Moldova, Republic of",0.4
@@ -2484,7 +2484,7 @@ Average User,User Reviews,Ecuador,79.80000000000001
 Average User,User Reviews,Uruguay,34.50000000000001
 Average User,User Reviews,Russia,6.3999999999999995
 Average User,User Reviews,Saudi Arabia,3.8
-Average User,User Reviews,United Kingdom,395.2999999999996
+Average User,User Reviews,England,395.2999999999996
 Average User,User Reviews,USA,1226.1000000000001
 Average User,User Reviews,Canada,272.6999999999997
 Average User,User Reviews,Argentina,221.80000000000013
@@ -2497,7 +2497,7 @@ Average User,User Reviews,Puerto Rico,5.7
 Average User,User Reviews,Australia,226.19999999999985
 Average User,User Reviews,Chile,93.59999999999994
 Average User,User Reviews,China,6.199999999999999
-Average User,User Reviews,"Iran, Islamic Republic of",8.1
+Average User,User Reviews,Iran, Islamic Republic of",8.1
 Average User,User Reviews,Venezuela,102.49999999999996
 Average User,User Reviews,Bahamas,0.7999999999999999
 Average User,User Reviews,El Salvador,25.600000000000005
@@ -2588,7 +2588,7 @@ Average User,User Reviews,Jersey,1.2999999999999998
 Average User,User Reviews,San Marino,1.5999999999999999
 Average User,User Reviews,Guernsey,1.2
 Average User,User Reviews,Slovenia,3.7
-Average User,User Reviews,Congo,0.19999999999999998
+Average User,User Reviews,Democratic Republic of the Congo,0.19999999999999998
 Average User,User Reviews,Qatar,1.6999999999999997
 Average User,User Reviews,Mali,1.9
 Average User,User Reviews,Benin,4.0
@@ -2615,10 +2615,10 @@ Average User,User Reviews,Cuba,3.6999999999999993
 Average User,User Reviews,Lesotho,0.19999999999999998
 Average User,User Reviews,Mozambique,3.4000000000000004
 Average User,User Reviews,Kuwait,1.3000000000000003
-Average User,User Reviews,"Tanzania, United Republic of",4.499999999999999
+Average User,User Reviews,Tanzania,4.499999999999999
 Average User,User Reviews,Djibouti,1.2999999999999998
 Average User,User Reviews,Haiti,0.8999999999999998
-Average User,User Reviews,"Congo, The Democratic Republic of the",1.5999999999999996
+Average User,User Reviews,"Democratic Republic of the Congo, The Democratic Republic of the",1.5999999999999996
 Average User,User Reviews,Monaco,1.6999999999999997
 Average User,User Reviews,Aruba,0.7
 Average User,User Reviews,"Moldova, Republic of",0.29999999999999993
@@ -2658,7 +2658,7 @@ Average User,Convenience,Saudi Arabia,2.5
 Average User,Convenience,USA,336.29999999999984
 Average User,Convenience,Ecuador,58.50000000000001
 Average User,Convenience,Brazil,378.2000000000002
-Average User,Convenience,United Kingdom,72.90000000000002
+Average User,Convenience,England,72.90000000000002
 Average User,Convenience,Canada,122.80000000000003
 Average User,Convenience,Argentina,156.40000000000006
 Average User,Convenience,South Africa,9.4
@@ -2730,7 +2730,7 @@ Average User,Convenience,Israel,0.4
 Average User,Convenience,Togo,2.0
 Average User,Convenience,Czech Republic,2.4000000000000004
 Average User,Convenience,Turkey,2.1
-Average User,Convenience,"Congo, The Democratic Republic of the",3.0
+Average User,Convenience,"Democratic Republic of the Congo, The Democratic Republic of the",3.0
 Average User,Convenience,Senegal,6.3999999999999995
 Average User,Convenience,Mozambique,3.0999999999999996
 Average User,Convenience,Singapore,7.2
@@ -2757,7 +2757,7 @@ Average User,Convenience,Guinea,0.7999999999999999
 Average User,Convenience,Ireland,3.7
 Average User,Convenience,"Moldova, Republic of",1.0
 Average User,Convenience,Northern Mariana Islands,0.9
-Average User,Convenience,"Iran, Islamic Republic of",3.6000000000000005
+Average User,Convenience,Iran, Islamic Republic of",3.6000000000000005
 Average User,Convenience,Rwanda,0.4
 Average User,Convenience,Jamaica,2.5
 Average User,Convenience,Mongolia,0.3
@@ -2774,7 +2774,7 @@ Average User,Convenience,Egypt,2.3
 Average User,Convenience,Mauritius,2.5
 Average User,Convenience,Uganda,0.8
 Average User,Convenience,Malta,0.5
-Average User,Convenience,"Tanzania, United Republic of",0.3
+Average User,Convenience,Tanzania,0.3
 Average User,Convenience,United Arab Emirates,1.2999999999999998
 Average User,Convenience,Namibia,0.8999999999999999
 Average User,Convenience,Angola,0.1
@@ -2797,7 +2797,7 @@ Average User,Expert Recommendation,France,839.1000000000085
 Average User,Expert Recommendation,Germany,803.9000000000035
 Average User,Expert Recommendation,Russia,2.5999999999999996
 Average User,Expert Recommendation,Saudi Arabia,2.9999999999999996
-Average User,Expert Recommendation,United Kingdom,106.40000000000003
+Average User,Expert Recommendation,England,106.40000000000003
 Average User,Expert Recommendation,USA,432.0000000000008
 Average User,Expert Recommendation,Algeria,21.900000000000006
 Average User,Expert Recommendation,Canada,107.0
@@ -2861,7 +2861,7 @@ Average User,Expert Recommendation,San Marino,0.5
 Average User,Expert Recommendation,Togo,2.6999999999999993
 Average User,Expert Recommendation,nan,2.9
 Average User,Expert Recommendation,Czech Republic,1.9
-Average User,Expert Recommendation,"Congo, The Democratic Republic of the",2.8
+Average User,Expert Recommendation,"Democratic Republic of the Congo, The Democratic Republic of the",2.8
 Average User,Expert Recommendation,Senegal,3.2
 Average User,Expert Recommendation,Luxembourg,5.0
 Average User,Expert Recommendation,Kenya,8.5
@@ -2897,7 +2897,7 @@ Average User,Expert Recommendation,Thailand,7.3999999999999995
 Average User,Expert Recommendation,Ireland,7.8
 Average User,Expert Recommendation,"Moldova, Republic of",0.19999999999999998
 Average User,Expert Recommendation,Northern Mariana Islands,0.1
-Average User,Expert Recommendation,"Iran, Islamic Republic of",3.9
+Average User,Expert Recommendation,Iran, Islamic Republic of",3.9
 Average User,Expert Recommendation,Jamaica,0.8999999999999999
 Average User,Expert Recommendation,Ukraine,0.7
 Average User,Expert Recommendation,Mongolia,0.4999999999999999
@@ -2911,7 +2911,7 @@ Average User,Expert Recommendation,Mauritius,1.6999999999999997
 Average User,Expert Recommendation,Macedonia,0.6
 Average User,Expert Recommendation,Uganda,2.4
 Average User,Expert Recommendation,Malta,1.7999999999999998
-Average User,Expert Recommendation,"Tanzania, United Republic of",5.1
+Average User,Expert Recommendation,Tanzania,5.1
 Average User,Expert Recommendation,United Arab Emirates,2.3
 Average User,Expert Recommendation,Namibia,1.2
 Average User,Expert Recommendation,Angola,1.2
@@ -2949,7 +2949,7 @@ Average User,Safety,Canada,405.9
 Average User,Safety,Italy,3038.0000000000064
 Average User,Safety,El Salvador,40.2
 Average User,Safety,Australia,314.99999999999994
-Average User,Safety,United Kingdom,538.0999999999998
+Average User,Safety,England,538.0999999999998
 Average User,Safety,Brazil,1270.7
 Average User,Safety,Indonesia,102.70000000000006
 Average User,Safety,New Zealand,69.99999999999996
@@ -3001,7 +3001,7 @@ Average User,Safety,United Arab Emirates,13.1
 Average User,Safety,Bangladesh,33.29999999999999
 Average User,Safety,Myanmar,12.6
 Average User,Safety,Saudi Arabia,3.0
-Average User,Safety,"Iran, Islamic Republic of",15.400000000000002
+Average User,Safety,Iran, Islamic Republic of",15.400000000000002
 Average User,Safety,Iceland,3.2
 Average User,Safety,Israel,9.9
 Average User,Safety,Netherlands,62.59999999999999
@@ -3056,7 +3056,7 @@ Average User,Safety,Czech Republic,12.3
 Average User,Safety,Guernsey,1.1
 Average User,Safety,Slovenia,4.300000000000001
 Average User,Safety,Bulgaria,5.199999999999999
-Average User,Safety,Congo,0.5
+Average User,Safety,Democratic Republic of the Congo,0.5
 Average User,Safety,Qatar,2.5
 Average User,Safety,Mali,3.9
 Average User,Safety,Benin,7.2
@@ -3085,11 +3085,11 @@ Average User,Safety,Lesotho,0.9
 Average User,Safety,Mozambique,3.6999999999999997
 Average User,Safety,Cape Verde,2.3
 Average User,Safety,Kuwait,1.8999999999999997
-Average User,Safety,"Tanzania, United Republic of",6.1000000000000005
+Average User,Safety,Tanzania,6.1000000000000005
 Average User,Safety,Curacao,2.6999999999999997
 Average User,Safety,Djibouti,1.8
 Average User,Safety,Haiti,2.4
-Average User,Safety,"Congo, The Democratic Republic of the",2.6
+Average User,Safety,"Democratic Republic of the Congo, The Democratic Republic of the",2.6
 Average User,Safety,Monaco,1.7999999999999998
 Average User,Safety,Aruba,0.6
 Average User,Safety,"Moldova, Republic of",0.6
@@ -3122,7 +3122,7 @@ Average User,Security,USA,2360.6000000000217
 Average User,Security,Canada,505.8999999999991
 Average User,Security,Italy,2660.8000000000047
 Average User,Security,Australia,383.1000000000003
-Average User,Security,United Kingdom,677.7000000000002
+Average User,Security,England,677.7000000000002
 Average User,Security,Brazil,1544.2000000000037
 Average User,Security,Indonesia,103.10000000000008
 Average User,Security,New Zealand,89.9
@@ -3175,7 +3175,7 @@ Average User,Security,Bangladesh,37.2
 Average User,Security,Myanmar,11.1
 Average User,Security,Panama,10.5
 Average User,Security,Saudi Arabia,3.3999999999999995
-Average User,Security,"Iran, Islamic Republic of",15.2
+Average User,Security,Iran, Islamic Republic of",15.2
 Average User,Security,Iceland,2.4
 Average User,Security,Israel,11.4
 Average User,Security,Netherlands,70.89999999999998
@@ -3229,7 +3229,7 @@ Average User,Security,Czech Republic,12.9
 Average User,Security,Guernsey,1.1
 Average User,Security,Slovenia,3.4
 Average User,Security,Bulgaria,5.400000000000001
-Average User,Security,Congo,0.4
+Average User,Security,Democratic Republic of the Congo,0.4
 Average User,Security,Qatar,2.1
 Average User,Security,Mali,5.0
 Average User,Security,Benin,8.799999999999999
@@ -3259,12 +3259,12 @@ Average User,Security,Lesotho,0.7
 Average User,Security,Mozambique,3.1999999999999997
 Average User,Security,Cape Verde,1.9999999999999996
 Average User,Security,Kuwait,2.0
-Average User,Security,"Tanzania, United Republic of",6.3
+Average User,Security,Tanzania,6.3
 Average User,Security,Curacao,2.8
 Average User,Security,Djibouti,1.5999999999999999
 Average User,Security,Haiti,3.3
 Average User,Security,Honduras,10.600000000000001
-Average User,Security,"Congo, The Democratic Republic of the",2.9999999999999996
+Average User,Security,"Democratic Republic of the Congo, The Democratic Republic of the",2.9999999999999996
 Average User,Security,Monaco,2.0
 Average User,Security,Aruba,0.4
 Average User,Security,"Moldova, Republic of",0.7999999999999999
@@ -3309,7 +3309,7 @@ Average User,Friend or Family Recommendation,Pakistan,11.4
 Average User,Friend or Family Recommendation,New Zealand,16.599999999999994
 Average User,Friend or Family Recommendation,Switzerland,97.59999999999997
 Average User,Friend or Family Recommendation,Germany,869.300000000006
-Average User,Friend or Family Recommendation,United Kingdom,97.19999999999997
+Average User,Friend or Family Recommendation,England,97.19999999999997
 Average User,Friend or Family Recommendation,Bangladesh,8.700000000000001
 Average User,Friend or Family Recommendation,Cyprus,0.9
 Average User,Friend or Family Recommendation,South Africa,10.1
@@ -3321,7 +3321,7 @@ Average User,Friend or Family Recommendation,Ghana,3.1999999999999997
 Average User,Friend or Family Recommendation,Morocco,12.899999999999995
 Average User,Friend or Family Recommendation,Luxembourg,6.3999999999999995
 Average User,Friend or Family Recommendation,Austria,63.60000000000001
-Average User,Friend or Family Recommendation,"Iran, Islamic Republic of",4.3999999999999995
+Average User,Friend or Family Recommendation,Iran, Islamic Republic of",4.3999999999999995
 Average User,Friend or Family Recommendation,Indonesia,30.100000000000005
 Average User,Friend or Family Recommendation,Sweden,2.5999999999999996
 Average User,Friend or Family Recommendation,Uruguay,13.799999999999999
@@ -3365,7 +3365,7 @@ Average User,Friend or Family Recommendation,Togo,1.0999999999999999
 Average User,Friend or Family Recommendation,nan,2.4999999999999996
 Average User,Friend or Family Recommendation,Czech Republic,3.9
 Average User,Friend or Family Recommendation,Turkey,1.2999999999999998
-Average User,Friend or Family Recommendation,"Congo, The Democratic Republic of the",0.7999999999999999
+Average User,Friend or Family Recommendation,"Democratic Republic of the Congo, The Democratic Republic of the",0.7999999999999999
 Average User,Friend or Family Recommendation,Senegal,2.9
 Average User,Friend or Family Recommendation,Kenya,4.7
 Average User,Friend or Family Recommendation,Singapore,7.099999999999999
@@ -3411,7 +3411,7 @@ Average User,Friend or Family Recommendation,Egypt,0.7999999999999999
 Average User,Friend or Family Recommendation,Russia,0.6
 Average User,Friend or Family Recommendation,Uganda,2.1
 Average User,Friend or Family Recommendation,Malta,1.5999999999999999
-Average User,Friend or Family Recommendation,"Tanzania, United Republic of",4.5
+Average User,Friend or Family Recommendation,Tanzania,4.5
 Average User,Friend or Family Recommendation,United Arab Emirates,1.1
 Average User,Friend or Family Recommendation,Namibia,0.5
 Average User,Friend or Family Recommendation,Angola,0.9999999999999999
@@ -3443,7 +3443,7 @@ Average User,Friend or Family Recommendation,Slovakia,0.19999999999999998
 Average User,Friend or Family Recommendation,Sudan,0.3999999999999999
 Average User,Friend or Family Recommendation,Malawi,0.1
 Average User,Friend or Family Recommendation,Mali,0.19999999999999998
-nan,Price,United Kingdom,14.199999999999998
+nan,Price,England,14.199999999999998
 nan,Price,USA,56.80000000000002
 nan,Price,India,26.299999999999997
 nan,Price,Israel,1.2
@@ -3496,7 +3496,7 @@ nan,Price,Chile,4.2
 nan,Price,China,0.9
 nan,Price,Niger,0.7
 nan,Price,Martinique,2.2
-nan,Price,"Iran, Islamic Republic of",3.7
+nan,Price,Iran, Islamic Republic of",3.7
 nan,Price,New Caledonia,0.19999999999999998
 nan,Price,Cambodia,2.0
 nan,Price,Croatia,0.9
@@ -3512,14 +3512,14 @@ nan,Price,Tunisia,1.0
 nan,Price,El Salvador,2.9
 nan,Price,Haiti,0.9
 nan,Price,Mali,0.6
-nan,Price,"Tanzania, United Republic of",0.29999999999999993
+nan,Price,Tanzania,0.29999999999999993
 nan,Price,Guatemala,1.8
 nan,Price,Honduras,1.0
 nan,Price,Finland,1.0
 nan,Price,Trinidad and Tobago,0.29999999999999993
-nan,Price,"Congo, The Democratic Republic of the",1.0
+nan,Price,"Democratic Republic of the Congo, The Democratic Republic of the",1.0
 nan,Price,Malaysia,1.0
-nan,User Reviews,United Kingdom,5.8
+nan,User Reviews,England,5.8
 nan,User Reviews,Colombia,1.5
 nan,User Reviews,USA,13.999999999999998
 nan,User Reviews,Brazil,10.900000000000002
@@ -3573,12 +3573,12 @@ nan,User Reviews,Israel,0.19999999999999998
 nan,User Reviews,Morocco,0.9
 nan,User Reviews,Haiti,0.7
 nan,User Reviews,El Salvador,0.4
-nan,User Reviews,"Tanzania, United Republic of",0.5
+nan,User Reviews,Tanzania,0.5
 nan,User Reviews,Finland,0.19999999999999998
 nan,User Reviews,Guatemala,0.4
 nan,User Reviews,Trinidad and Tobago,0.4
-nan,User Reviews,"Congo, The Democratic Republic of the",0.1
-nan,Convenience,United Kingdom,1.0
+nan,User Reviews,"Democratic Republic of the Congo, The Democratic Republic of the",0.1
+nan,Convenience,England,1.0
 nan,Convenience,France,35.5
 nan,Convenience,Germany,17.2
 nan,Convenience,Italy,27.900000000000002
@@ -3606,7 +3606,7 @@ nan,Convenience,Spain,2.9
 nan,Convenience,India,4.800000000000001
 nan,Convenience,Martinique,1.9
 nan,Convenience,Switzerland,0.9999999999999999
-nan,Convenience,"Iran, Islamic Republic of",0.6
+nan,Convenience,Iran, Islamic Republic of",0.6
 nan,Convenience,Venezuela,1.7999999999999998
 nan,Convenience,Thailand,0.4
 nan,Convenience,Algeria,1.0
@@ -3624,7 +3624,7 @@ nan,Convenience,Haiti,0.1
 nan,Convenience,El Salvador,0.19999999999999998
 nan,Convenience,Mali,1.0
 nan,Convenience,Pakistan,0.6
-nan,Convenience,"Tanzania, United Republic of",0.6
+nan,Convenience,Tanzania,0.6
 nan,Convenience,Honduras,0.7999999999999999
 nan,Convenience,Bolivia,1.0
 nan,Features,USA,55.59999999999998
@@ -3644,7 +3644,7 @@ nan,Features,Ecuador,5.5
 nan,Features,Belgium,6.800000000000001
 nan,Features,Colombia,10.9
 nan,Features,Nicaragua,1.7
-nan,Features,United Kingdom,9.600000000000001
+nan,Features,England,9.600000000000001
 nan,Features,Algeria,4.6
 nan,Features,Sri Lanka,1.6
 nan,Features,Peru,3.1999999999999997
@@ -3690,12 +3690,12 @@ nan,Features,New Zealand,0.29999999999999993
 nan,Features,El Salvador,2.6
 nan,Features,Haiti,1.0
 nan,Features,Mali,0.7
-nan,Features,"Tanzania, United Republic of",0.9
+nan,Features,Tanzania,0.9
 nan,Features,Guatemala,2.0
 nan,Features,Honduras,0.9
 nan,Features,Finland,0.6
 nan,Features,Trinidad and Tobago,0.7
-nan,Features,"Congo, The Democratic Republic of the",0.19999999999999998
+nan,Features,"Democratic Republic of the Congo, The Democratic Republic of the",0.19999999999999998
 nan,Reliability,Switzerland,6.6
 nan,Reliability,Canada,8.3
 nan,Reliability,USA,28.400000000000002
@@ -3716,7 +3716,7 @@ nan,Reliability,South Africa,1.2
 nan,Reliability,Egypt,0.4
 nan,Reliability,Argentina,4.1
 nan,Reliability,Zimbabwe,2.0999999999999996
-nan,Reliability,United Kingdom,6.199999999999999
+nan,Reliability,England,6.199999999999999
 nan,Reliability,Algeria,1.0
 nan,Reliability,Austria,4.4
 nan,Reliability,Senegal,1.5
@@ -3759,8 +3759,8 @@ nan,Reliability,Pakistan,0.7999999999999999
 nan,Reliability,Finland,0.7
 nan,Reliability,Guatemala,0.19999999999999998
 nan,Reliability,Trinidad and Tobago,0.6
-nan,Reliability,"Congo, The Democratic Republic of the",0.7
-nan,Reliability,"Iran, Islamic Republic of",1.0
+nan,Reliability,"Democratic Republic of the Congo, The Democratic Republic of the",0.7
+nan,Reliability,Iran, Islamic Republic of",1.0
 nan,Expert Recommendation,Colombia,2.9
 nan,Expert Recommendation,Canada,3.5
 nan,Expert Recommendation,Belgium,1.4000000000000001
@@ -3783,7 +3783,7 @@ nan,Expert Recommendation,India,9.1
 nan,Expert Recommendation,Argentina,3.4
 nan,Expert Recommendation,Martinique,0.7
 nan,Expert Recommendation,Switzerland,0.5
-nan,Expert Recommendation,"Iran, Islamic Republic of",1.2999999999999998
+nan,Expert Recommendation,Iran, Islamic Republic of",1.2999999999999998
 nan,Expert Recommendation,Venezuela,1.6
 nan,Expert Recommendation,Thailand,0.1
 nan,Expert Recommendation,Chile,0.8
@@ -3791,7 +3791,7 @@ nan,Expert Recommendation,Netherlands,0.1
 nan,Expert Recommendation,New Caledonia,0.5
 nan,Expert Recommendation,Sri Lanka,0.29999999999999993
 nan,Expert Recommendation,Ecuador,2.0999999999999996
-nan,Expert Recommendation,United Kingdom,1.4
+nan,Expert Recommendation,England,1.4
 nan,Expert Recommendation,Austria,0.8999999999999999
 nan,Expert Recommendation,Israel,0.5
 nan,Expert Recommendation,Morocco,0.4
@@ -3802,7 +3802,7 @@ nan,Expert Recommendation,Nicaragua,0.7
 nan,Expert Recommendation,Guatemala,1.2999999999999998
 nan,Expert Recommendation,Finland,0.1
 nan,Expert Recommendation,Trinidad and Tobago,0.19999999999999998
-nan,Expert Recommendation,"Congo, The Democratic Republic of the",0.6
+nan,Expert Recommendation,"Democratic Republic of the Congo, The Democratic Republic of the",0.6
 nan,Expert Recommendation,Zimbabwe,1.0
 nan,Safety,USA,27.599999999999998
 nan,Safety,Brazil,21.800000000000004
@@ -3822,7 +3822,7 @@ nan,Safety,France,45.79999999999999
 nan,Safety,Argentina,6.3999999999999995
 nan,Safety,Spain,7.8
 nan,Safety,Zimbabwe,1.5999999999999996
-nan,Safety,United Kingdom,6.3999999999999995
+nan,Safety,England,6.3999999999999995
 nan,Safety,Pakistan,2.4
 nan,Safety,Austria,6.3999999999999995
 nan,Safety,Cameroon,1.0
@@ -3851,7 +3851,7 @@ nan,Safety,Romania,1.5999999999999999
 nan,Safety,Australia,3.0
 nan,Safety,Niger,0.9
 nan,Safety,Martinique,1.6
-nan,Safety,"Iran, Islamic Republic of",2.6
+nan,Safety,Iran, Islamic Republic of",2.6
 nan,Safety,New Caledonia,0.9
 nan,Safety,Sri Lanka,0.6
 nan,Safety,Ecuador,4.5
@@ -3864,11 +3864,11 @@ nan,Safety,Morocco,0.7
 nan,Safety,El Salvador,2.1999999999999997
 nan,Safety,Haiti,0.5
 nan,Safety,Nicaragua,0.5
-nan,Safety,"Tanzania, United Republic of",1.0
+nan,Safety,Tanzania,1.0
 nan,Safety,Finland,0.5
 nan,Safety,Guatemala,0.7999999999999999
 nan,Safety,Trinidad and Tobago,0.7999999999999999
-nan,Safety,"Congo, The Democratic Republic of the",0.4
+nan,Safety,"Democratic Republic of the Congo, The Democratic Republic of the",0.4
 nan,Security,USA,38.39999999999999
 nan,Security,Brazil,28.399999999999995
 nan,Security,Italy,49.30000000000001
@@ -3887,7 +3887,7 @@ nan,Security,South Africa,1.6
 nan,Security,Egypt,0.5
 nan,Security,Argentina,3.4000000000000004
 nan,Security,Zimbabwe,2.0
-nan,Security,United Kingdom,7.1
+nan,Security,England,7.1
 nan,Security,Spain,5.5
 nan,Security,Austria,7.499999999999999
 nan,Security,Senegal,1.2999999999999998
@@ -3920,7 +3920,7 @@ nan,Security,Malaysia,0.9
 nan,Security,Nepal,1.8
 nan,Security,Tunisia,1.0
 nan,Security,Colombia,2.4
-nan,Security,"Iran, Islamic Republic of",1.6
+nan,Security,Iran, Islamic Republic of",1.6
 nan,Security,Morocco,1.5
 nan,Security,New Zealand,0.5
 nan,Security,Israel,0.9
@@ -3928,11 +3928,11 @@ nan,Security,Haiti,0.29999999999999993
 nan,Security,El Salvador,1.2999999999999998
 nan,Security,Nicaragua,0.7999999999999999
 nan,Security,Mali,0.7999999999999999
-nan,Security,"Tanzania, United Republic of",0.7
+nan,Security,Tanzania,0.7
 nan,Security,Guatemala,0.8999999999999999
 nan,Security,Finland,0.7999999999999999
 nan,Security,Trinidad and Tobago,1.0
-nan,Security,"Congo, The Democratic Republic of the",0.29999999999999993
+nan,Security,"Democratic Republic of the Congo, The Democratic Republic of the",0.29999999999999993
 nan,Security,Pakistan,1.0
 nan,Privacy,USA,37.99999999999999
 nan,Privacy,Brazil,18.7
@@ -3953,7 +3953,7 @@ nan,Privacy,Egypt,0.19999999999999998
 nan,Privacy,Argentina,7.9
 nan,Privacy,Spain,9.100000000000001
 nan,Privacy,Zimbabwe,1.4999999999999998
-nan,Privacy,United Kingdom,6.000000000000001
+nan,Privacy,England,6.000000000000001
 nan,Privacy,Austria,7.0
 nan,Privacy,Senegal,1.2999999999999998
 nan,Privacy,Luxembourg,0.9
@@ -3980,7 +3980,7 @@ nan,Privacy,China,1.0
 nan,Privacy,Australia,4.3
 nan,Privacy,Niger,1.0
 nan,Privacy,Martinique,1.7
-nan,Privacy,"Iran, Islamic Republic of",3.4999999999999996
+nan,Privacy,Iran, Islamic Republic of",3.4999999999999996
 nan,Privacy,Chile,1.5999999999999996
 nan,Privacy,New Caledonia,0.7
 nan,Privacy,Sri Lanka,0.9
@@ -3992,12 +3992,12 @@ nan,Privacy,Israel,0.7999999999999999
 nan,Privacy,Morocco,0.29999999999999993
 nan,Privacy,El Salvador,1.9
 nan,Privacy,Haiti,0.6
-nan,Privacy,"Tanzania, United Republic of",0.7999999999999999
+nan,Privacy,Tanzania,0.7999999999999999
 nan,Privacy,Algeria,3.1999999999999997
 nan,Privacy,Finland,0.9
 nan,Privacy,Guatemala,0.7
 nan,Privacy,Trinidad and Tobago,0.9
-nan,Privacy,"Congo, The Democratic Republic of the",0.7999999999999999
+nan,Privacy,"Democratic Republic of the Congo, The Democratic Republic of the",0.7999999999999999
 nan,Privacy,Kenya,1.0
 nan,Friend or Family Recommendation,Germany,15.399999999999995
 nan,Friend or Family Recommendation,Pakistan,1.6
@@ -4029,7 +4029,7 @@ nan,Friend or Family Recommendation,Ecuador,3.1
 nan,Friend or Family Recommendation,Sri Lanka,0.19999999999999998
 nan,Friend or Family Recommendation,Malaysia,0.7999999999999999
 nan,Friend or Family Recommendation,Argentina,0.9
-nan,Friend or Family Recommendation,United Kingdom,1.9
+nan,Friend or Family Recommendation,England,1.9
 nan,Friend or Family Recommendation,Austria,2.0999999999999996
 nan,Friend or Family Recommendation,Israel,0.29999999999999993
 nan,Friend or Family Recommendation,Canada,0.30000000000000004
@@ -4039,16 +4039,16 @@ nan,Friend or Family Recommendation,Russia,0.4
 nan,Friend or Family Recommendation,Haiti,0.19999999999999998
 nan,Friend or Family Recommendation,El Salvador,0.29999999999999993
 nan,Friend or Family Recommendation,Nicaragua,0.6
-nan,Friend or Family Recommendation,"Tanzania, United Republic of",0.4
-nan,Friend or Family Recommendation,"Iran, Islamic Republic of",1.0
+nan,Friend or Family Recommendation,Tanzania,0.4
+nan,Friend or Family Recommendation,Iran, Islamic Republic of",1.0
 nan,Friend or Family Recommendation,Venezuela,0.29999999999999993
 nan,Friend or Family Recommendation,Costa Rica,0.7
 nan,Friend or Family Recommendation,Finland,0.29999999999999993
 nan,Friend or Family Recommendation,Guatemala,0.5
 nan,Friend or Family Recommendation,Trinidad and Tobago,0.1
-nan,Friend or Family Recommendation,"Congo, The Democratic Republic of the",0.5
+nan,Friend or Family Recommendation,"Democratic Republic of the Congo, The Democratic Republic of the",0.5
 nan,Friend or Family Recommendation,Zimbabwe,0.9
-Ultra Nerd,Price,United Kingdom,288.8999999999999
+Ultra Nerd,Price,England,288.8999999999999
 Ultra Nerd,Price,Finland,24.800000000000008
 Ultra Nerd,Price,Malaysia,8.9
 Ultra Nerd,Price,Hong Kong,7.0
@@ -4099,8 +4099,8 @@ Ultra Nerd,Price,Puerto Rico,3.8
 Ultra Nerd,Price,United Arab Emirates,6.5
 Ultra Nerd,Price,South Africa,41.199999999999996
 Ultra Nerd,Price,Ireland,26.700000000000003
-Ultra Nerd,Price,"Iran, Islamic Republic of",28.499999999999993
-Ultra Nerd,Price,"Tanzania, United Republic of",2.3
+Ultra Nerd,Price,Iran, Islamic Republic of",28.499999999999993
+Ultra Nerd,Price,Tanzania,2.3
 Ultra Nerd,Price,Czech Republic,15.299999999999999
 Ultra Nerd,Price,Iceland,2.2
 Ultra Nerd,Price,Cyprus,5.0
@@ -4114,7 +4114,7 @@ Ultra Nerd,Price,Slovenia,6.0
 Ultra Nerd,Price,Nicaragua,4.5
 Ultra Nerd,Price,Nigeria,1.9
 Ultra Nerd,Price,Japan,13.100000000000003
-Ultra Nerd,Price,"Congo, The Democratic Republic of the",2.8
+Ultra Nerd,Price,"Democratic Republic of the Congo, The Democratic Republic of the",2.8
 Ultra Nerd,Price,Armenia,2.6999999999999997
 Ultra Nerd,Price,Russia,26.199999999999996
 Ultra Nerd,Price,Estonia,5.0
@@ -4199,7 +4199,7 @@ Ultra Nerd,Price,Vanuatu,0.1
 Ultra Nerd,Price,Sierra Leone,0.9
 Ultra Nerd,Price,Myanmar,0.7
 Ultra Nerd,Price,Burundi,0.6
-Ultra Nerd,Features,United Kingdom,329.69999999999993
+Ultra Nerd,Features,England,329.69999999999993
 Ultra Nerd,Features,Finland,24.400000000000002
 Ultra Nerd,Features,Malaysia,12.8
 Ultra Nerd,Features,Taiwan,8.200000000000001
@@ -4249,8 +4249,8 @@ Ultra Nerd,Features,Norway,27.5
 Ultra Nerd,Features,United Arab Emirates,9.6
 Ultra Nerd,Features,South Africa,43.49999999999998
 Ultra Nerd,Features,Ireland,29.4
-Ultra Nerd,Features,"Iran, Islamic Republic of",26.599999999999998
-Ultra Nerd,Features,"Tanzania, United Republic of",1.6
+Ultra Nerd,Features,Iran, Islamic Republic of",26.599999999999998
+Ultra Nerd,Features,Tanzania,1.6
 Ultra Nerd,Features,Czech Republic,17.8
 Ultra Nerd,Features,Iceland,4.9
 Ultra Nerd,Features,Cyprus,6.0
@@ -4263,7 +4263,7 @@ Ultra Nerd,Features,Slovenia,6.4
 Ultra Nerd,Features,Nicaragua,4.6
 Ultra Nerd,Features,Nigeria,1.9999999999999998
 Ultra Nerd,Features,Japan,13.499999999999998
-Ultra Nerd,Features,"Congo, The Democratic Republic of the",3.0999999999999996
+Ultra Nerd,Features,"Democratic Republic of the Congo, The Democratic Republic of the",3.0999999999999996
 Ultra Nerd,Features,Armenia,2.5
 Ultra Nerd,Features,Russia,29.499999999999996
 Ultra Nerd,Features,Estonia,6.1
@@ -4398,8 +4398,8 @@ Ultra Nerd,User Reviews,Vietnam,1.9999999999999998
 Ultra Nerd,User Reviews,Fiji,0.2
 Ultra Nerd,User Reviews,Kenya,4.8999999999999995
 Ultra Nerd,User Reviews,Indonesia,8.899999999999999
-Ultra Nerd,User Reviews,"Iran, Islamic Republic of",7.1000000000000005
-Ultra Nerd,User Reviews,United Kingdom,94.70000000000005
+Ultra Nerd,User Reviews,Iran, Islamic Republic of",7.1000000000000005
+Ultra Nerd,User Reviews,England,94.70000000000005
 Ultra Nerd,User Reviews,Taiwan,2.0
 Ultra Nerd,User Reviews,South Africa,18.599999999999998
 Ultra Nerd,User Reviews,Austria,51.300000000000004
@@ -4434,7 +4434,7 @@ Ultra Nerd,User Reviews,Slovenia,2.1
 Ultra Nerd,User Reviews,Burkina Faso,0.5999999999999999
 Ultra Nerd,User Reviews,Bosnia and Herzegovina,1.5
 Ultra Nerd,User Reviews,Cote D'Ivoire,6.0
-Ultra Nerd,User Reviews,"Congo, The Democratic Republic of the",0.7999999999999999
+Ultra Nerd,User Reviews,"Democratic Republic of the Congo, The Democratic Republic of the",0.7999999999999999
 Ultra Nerd,User Reviews,Serbia,5.3999999999999995
 Ultra Nerd,User Reviews,Reunion,4.999999999999999
 Ultra Nerd,User Reviews,Macedonia,0.19999999999999998
@@ -4485,7 +4485,7 @@ Ultra Nerd,User Reviews,Vanuatu,0.7
 Ultra Nerd,User Reviews,Sierra Leone,0.4
 Ultra Nerd,User Reviews,Myanmar,0.5
 Ultra Nerd,User Reviews,Burundi,0.5
-Ultra Nerd,User Reviews,"Tanzania, United Republic of",0.5
+Ultra Nerd,User Reviews,Tanzania,0.5
 Ultra Nerd,Convenience,Sweden,8.200000000000001
 Ultra Nerd,Convenience,Canada,44.09999999999999
 Ultra Nerd,Convenience,Germany,241.4
@@ -4525,7 +4525,7 @@ Ultra Nerd,Convenience,Switzerland,40.09999999999999
 Ultra Nerd,Convenience,Israel,3.7
 Ultra Nerd,Convenience,China,1.0
 Ultra Nerd,Convenience,South Africa,6.900000000000001
-Ultra Nerd,Convenience,United Kingdom,35.60000000000001
+Ultra Nerd,Convenience,England,35.60000000000001
 Ultra Nerd,Convenience,Tunisia,6.8
 Ultra Nerd,Convenience,Lithuania,1.6
 Ultra Nerd,Convenience,Greece,3.999999999999999
@@ -4550,7 +4550,7 @@ Ultra Nerd,Convenience,Madagascar,0.9
 Ultra Nerd,Convenience,Estonia,0.29999999999999993
 Ultra Nerd,Convenience,Jordan,1.6
 Ultra Nerd,Convenience,Burkina Faso,0.9
-Ultra Nerd,Convenience,"Iran, Islamic Republic of",1.9999999999999998
+Ultra Nerd,Convenience,Iran, Islamic Republic of",1.9999999999999998
 Ultra Nerd,Convenience,Ghana,2.3
 Ultra Nerd,Convenience,Poland,3.7
 Ultra Nerd,Convenience,Russia,2.4
@@ -4571,7 +4571,7 @@ Ultra Nerd,Convenience,Algeria,4.7
 Ultra Nerd,Convenience,Cayman Islands,0.1
 Ultra Nerd,Convenience,Cyprus,0.9999999999999999
 Ultra Nerd,Convenience,Mali,0.4
-Ultra Nerd,Convenience,"Congo, The Democratic Republic of the",0.9
+Ultra Nerd,Convenience,"Democratic Republic of the Congo, The Democratic Republic of the",0.9
 Ultra Nerd,Convenience,Nepal,0.3999999999999999
 Ultra Nerd,Convenience,Nicaragua,2.0
 Ultra Nerd,Convenience,Taiwan,1.5
@@ -4647,12 +4647,12 @@ Ultra Nerd,Reliability,Vietnam,5.1
 Ultra Nerd,Reliability,Reunion,9.399999999999999
 Ultra Nerd,Reliability,Fiji,1.6
 Ultra Nerd,Reliability,Kenya,4.6
-Ultra Nerd,Reliability,United Kingdom,162.29999999999998
+Ultra Nerd,Reliability,England,162.29999999999998
 Ultra Nerd,Reliability,Taiwan,4.0
 Ultra Nerd,Reliability,China,3.6
 Ultra Nerd,Reliability,Jordan,2.5999999999999996
 Ultra Nerd,Reliability,Israel,12.8
-Ultra Nerd,Reliability,"Iran, Islamic Republic of",9.899999999999999
+Ultra Nerd,Reliability,Iran, Islamic Republic of",9.899999999999999
 Ultra Nerd,Reliability,South Africa,27.299999999999994
 Ultra Nerd,Reliability,Austria,85.90000000000002
 Ultra Nerd,Reliability,Denmark,16.8
@@ -4684,7 +4684,7 @@ Ultra Nerd,Reliability,Lao People's Democratic Republic,0.4
 Ultra Nerd,Reliability,Burkina Faso,1.2
 Ultra Nerd,Reliability,Bosnia and Herzegovina,2.4
 Ultra Nerd,Reliability,Cote D'Ivoire,7.799999999999999
-Ultra Nerd,Reliability,"Congo, The Democratic Republic of the",1.4
+Ultra Nerd,Reliability,"Democratic Republic of the Congo, The Democratic Republic of the",1.4
 Ultra Nerd,Reliability,Serbia,9.2
 Ultra Nerd,Reliability,Macedonia,1.4
 Ultra Nerd,Reliability,United Arab Emirates,5.000000000000001
@@ -4732,7 +4732,7 @@ Ultra Nerd,Reliability,Vanuatu,0.7999999999999999
 Ultra Nerd,Reliability,Sierra Leone,0.5
 Ultra Nerd,Reliability,Myanmar,0.4
 Ultra Nerd,Reliability,Burundi,0.19999999999999998
-Ultra Nerd,Reliability,"Tanzania, United Republic of",0.7
+Ultra Nerd,Reliability,Tanzania,0.7
 Ultra Nerd,Expert Recommendation,Canada,36.2
 Ultra Nerd,Expert Recommendation,Italy,213.50000000000006
 Ultra Nerd,Expert Recommendation,Brazil,85.50000000000001
@@ -4770,7 +4770,7 @@ Ultra Nerd,Expert Recommendation,New Zealand,3.0
 Ultra Nerd,Expert Recommendation,Austria,21.699999999999996
 Ultra Nerd,Expert Recommendation,Cote D'Ivoire,1.2999999999999998
 Ultra Nerd,Expert Recommendation,Slovenia,0.9999999999999999
-Ultra Nerd,Expert Recommendation,United Kingdom,42.20000000000001
+Ultra Nerd,Expert Recommendation,England,42.20000000000001
 Ultra Nerd,Expert Recommendation,Madagascar,1.1
 Ultra Nerd,Expert Recommendation,Belgium,13.399999999999995
 Ultra Nerd,Expert Recommendation,Portugal,3.0
@@ -4780,7 +4780,7 @@ Ultra Nerd,Expert Recommendation,Israel,3.1
 Ultra Nerd,Expert Recommendation,South Africa,9.999999999999998
 Ultra Nerd,Expert Recommendation,Jordan,0.4999999999999999
 Ultra Nerd,Expert Recommendation,Burkina Faso,0.19999999999999998
-Ultra Nerd,Expert Recommendation,"Iran, Islamic Republic of",4.699999999999999
+Ultra Nerd,Expert Recommendation,Iran, Islamic Republic of",4.699999999999999
 Ultra Nerd,Expert Recommendation,Ghana,2.0
 Ultra Nerd,Expert Recommendation,Poland,5.800000000000001
 Ultra Nerd,Expert Recommendation,Russia,2.7
@@ -4807,7 +4807,7 @@ Ultra Nerd,Expert Recommendation,Cayman Islands,0.29999999999999993
 Ultra Nerd,Expert Recommendation,Cyprus,0.3999999999999999
 Ultra Nerd,Expert Recommendation,Europe,0.9
 Ultra Nerd,Expert Recommendation,Mali,0.29999999999999993
-Ultra Nerd,Expert Recommendation,"Congo, The Democratic Republic of the",0.7
+Ultra Nerd,Expert Recommendation,"Democratic Republic of the Congo, The Democratic Republic of the",0.7
 Ultra Nerd,Expert Recommendation,Ecuador,6.1
 Ultra Nerd,Expert Recommendation,Nepal,1.0999999999999999
 Ultra Nerd,Expert Recommendation,Taiwan,0.8999999999999999
@@ -4843,7 +4843,7 @@ Ultra Nerd,Expert Recommendation,Sri Lanka,1.4
 Ultra Nerd,Expert Recommendation,Jersey,0.19999999999999998
 Ultra Nerd,Expert Recommendation,Saudi Arabia,0.7
 Ultra Nerd,Expert Recommendation,Papua New Guinea,0.29999999999999993
-Ultra Nerd,Expert Recommendation,"Tanzania, United Republic of",1.4
+Ultra Nerd,Expert Recommendation,Tanzania,1.4
 Ultra Nerd,Expert Recommendation,Vanuatu,0.5
 Ultra Nerd,Expert Recommendation,Zimbabwe,0.19999999999999998
 Ultra Nerd,Expert Recommendation,Sierra Leone,0.29999999999999993
@@ -4902,9 +4902,9 @@ Ultra Nerd,Privacy,Fiji,1.2999999999999998
 Ultra Nerd,Privacy,Kenya,4.699999999999999
 Ultra Nerd,Privacy,Bolivia,5.499999999999999
 Ultra Nerd,Privacy,Indonesia,20.5
-Ultra Nerd,Privacy,"Iran, Islamic Republic of",13.1
+Ultra Nerd,Privacy,Iran, Islamic Republic of",13.1
 Ultra Nerd,Privacy,Egypt,5.1
-Ultra Nerd,Privacy,United Kingdom,176.70000000000013
+Ultra Nerd,Privacy,England,176.70000000000013
 Ultra Nerd,Privacy,Taiwan,3.5
 Ultra Nerd,Privacy,Jordan,1.7999999999999998
 Ultra Nerd,Privacy,South Africa,25.200000000000003
@@ -4943,7 +4943,7 @@ Ultra Nerd,Privacy,Lao People's Democratic Republic,0.5
 Ultra Nerd,Privacy,Burkina Faso,1.2
 Ultra Nerd,Privacy,Bosnia and Herzegovina,3.4
 Ultra Nerd,Privacy,Cote D'Ivoire,8.0
-Ultra Nerd,Privacy,"Congo, The Democratic Republic of the",1.4
+Ultra Nerd,Privacy,"Democratic Republic of the Congo, The Democratic Republic of the",1.4
 Ultra Nerd,Privacy,Serbia,12.2
 Ultra Nerd,Privacy,Macedonia,0.7999999999999999
 Ultra Nerd,Privacy,United Arab Emirates,6.6000000000000005
@@ -4991,7 +4991,7 @@ Ultra Nerd,Privacy,Togo,0.9
 Ultra Nerd,Privacy,Andorra,0.4
 Ultra Nerd,Privacy,Jersey,0.6
 Ultra Nerd,Privacy,Papua New Guinea,0.7
-Ultra Nerd,Privacy,"Tanzania, United Republic of",1.2
+Ultra Nerd,Privacy,Tanzania,1.2
 Ultra Nerd,Privacy,Vanuatu,0.9
 Ultra Nerd,Privacy,Sierra Leone,0.6
 Ultra Nerd,Privacy,Myanmar,0.7999999999999999
@@ -5042,11 +5042,11 @@ Ultra Nerd,Safety,Fiji,1.6
 Ultra Nerd,Safety,Kenya,3.9
 Ultra Nerd,Safety,Bolivia,6.0
 Ultra Nerd,Safety,Egypt,5.3
-Ultra Nerd,Safety,United Kingdom,145.20000000000007
+Ultra Nerd,Safety,England,145.20000000000007
 Ultra Nerd,Safety,Russia,15.700000000000001
 Ultra Nerd,Safety,Taiwan,3.4
 Ultra Nerd,Safety,China,3.8
-Ultra Nerd,Safety,"Iran, Islamic Republic of",15.3
+Ultra Nerd,Safety,Iran, Islamic Republic of",15.3
 Ultra Nerd,Safety,South Africa,21.800000000000004
 Ultra Nerd,Safety,Austria,65.59999999999997
 Ultra Nerd,Safety,Denmark,10.799999999999999
@@ -5084,7 +5084,7 @@ Ultra Nerd,Safety,Slovenia,4.0
 Ultra Nerd,Safety,Burkina Faso,1.6
 Ultra Nerd,Safety,Bosnia and Herzegovina,2.8
 Ultra Nerd,Safety,Cote D'Ivoire,6.7
-Ultra Nerd,Safety,"Congo, The Democratic Republic of the",1.0
+Ultra Nerd,Safety,"Democratic Republic of the Congo, The Democratic Republic of the",1.0
 Ultra Nerd,Safety,Serbia,10.8
 Ultra Nerd,Safety,Macedonia,0.6
 Ultra Nerd,Safety,United Arab Emirates,5.3
@@ -5136,7 +5136,7 @@ Ultra Nerd,Safety,Vanuatu,0.4
 Ultra Nerd,Safety,Sierra Leone,0.7999999999999999
 Ultra Nerd,Safety,Myanmar,0.9
 Ultra Nerd,Safety,Burundi,0.4
-Ultra Nerd,Safety,"Tanzania, United Republic of",0.1
+Ultra Nerd,Safety,Tanzania,0.1
 Ultra Nerd,Security,Netherlands,55.1
 Ultra Nerd,Security,Brazil,301.6000000000001
 Ultra Nerd,Security,Costa Rica,9.999999999999998
@@ -5184,9 +5184,9 @@ Ultra Nerd,Security,Vietnam,4.8
 Ultra Nerd,Security,Reunion,9.2
 Ultra Nerd,Security,Fiji,1.6
 Ultra Nerd,Security,Kenya,4.800000000000001
-Ultra Nerd,Security,"Iran, Islamic Republic of",16.1
+Ultra Nerd,Security,Iran, Islamic Republic of",16.1
 Ultra Nerd,Security,Egypt,6.1000000000000005
-Ultra Nerd,Security,United Kingdom,196.10000000000008
+Ultra Nerd,Security,England,196.10000000000008
 Ultra Nerd,Security,Taiwan,4.199999999999999
 Ultra Nerd,Security,Jordan,2.3
 Ultra Nerd,Security,Israel,9.299999999999999
@@ -5227,7 +5227,7 @@ Ultra Nerd,Security,Slovenia,3.8
 Ultra Nerd,Security,Burkina Faso,1.7999999999999998
 Ultra Nerd,Security,Bosnia and Herzegovina,2.3999999999999995
 Ultra Nerd,Security,Cote D'Ivoire,9.299999999999999
-Ultra Nerd,Security,"Congo, The Democratic Republic of the",1.7
+Ultra Nerd,Security,"Democratic Republic of the Congo, The Democratic Republic of the",1.7
 Ultra Nerd,Security,Serbia,11.9
 Ultra Nerd,Security,Macedonia,0.4
 Ultra Nerd,Security,United Arab Emirates,7.5
@@ -5278,7 +5278,7 @@ Ultra Nerd,Security,Gabon,0.6
 Ultra Nerd,Security,Togo,0.7999999999999999
 Ultra Nerd,Security,Andorra,0.7999999999999999
 Ultra Nerd,Security,Jersey,0.9
-Ultra Nerd,Security,"Tanzania, United Republic of",1.2
+Ultra Nerd,Security,Tanzania,1.2
 Ultra Nerd,Security,Vanuatu,1.0
 Ultra Nerd,Security,Sierra Leone,0.7
 Ultra Nerd,Security,Burundi,0.7999999999999999
@@ -5297,7 +5297,7 @@ Ultra Nerd,Friend or Family Recommendation,Switzerland,20.000000000000007
 Ultra Nerd,Friend or Family Recommendation,Israel,2.4
 Ultra Nerd,Friend or Family Recommendation,Tunisia,3.7
 Ultra Nerd,Friend or Family Recommendation,France,155.7999999999997
-Ultra Nerd,Friend or Family Recommendation,United Kingdom,28.700000000000014
+Ultra Nerd,Friend or Family Recommendation,England,28.700000000000014
 Ultra Nerd,Friend or Family Recommendation,Belgium,12.5
 Ultra Nerd,Friend or Family Recommendation,Argentina,11.199999999999998
 Ultra Nerd,Friend or Family Recommendation,Turkey,2.5
@@ -5327,7 +5327,7 @@ Ultra Nerd,Friend or Family Recommendation,South Africa,4.7
 Ultra Nerd,Friend or Family Recommendation,Jordan,0.2
 Ultra Nerd,Friend or Family Recommendation,Indonesia,5.8
 Ultra Nerd,Friend or Family Recommendation,Burkina Faso,0.1
-Ultra Nerd,Friend or Family Recommendation,"Iran, Islamic Republic of",3.4000000000000004
+Ultra Nerd,Friend or Family Recommendation,Iran, Islamic Republic of",3.4000000000000004
 Ultra Nerd,Friend or Family Recommendation,Poland,4.699999999999999
 Ultra Nerd,Friend or Family Recommendation,Russia,2.9000000000000004
 Ultra Nerd,Friend or Family Recommendation,Ghana,0.3
@@ -5394,10 +5394,10 @@ Ultra Nerd,Friend or Family Recommendation,Syrian Arab Republic,0.1
 Ultra Nerd,Friend or Family Recommendation,Anonymous Proxy,0.19999999999999998
 Ultra Nerd,Friend or Family Recommendation,Burundi,0.29999999999999993
 Ultra Nerd,Friend or Family Recommendation,French Polynesia,0.19999999999999998
-Ultra Nerd,Friend or Family Recommendation,"Tanzania, United Republic of",0.4
+Ultra Nerd,Friend or Family Recommendation,Tanzania,0.4
 Ultra Nerd,Friend or Family Recommendation,Ethiopia,0.7
 Ultra Nerd,Friend or Family Recommendation,Panama,0.29999999999999993
-Luddite,Price,United Kingdom,49.900000000000006
+Luddite,Price,England,49.900000000000006
 Luddite,Price,India,42.10000000000001
 Luddite,Price,France,428.0999999999995
 Luddite,Price,Indonesia,19.900000000000002
@@ -5449,7 +5449,7 @@ Luddite,Price,Nepal,2.7
 Luddite,Price,Gabon,0.7
 Luddite,Price,El Salvador,9.6
 Luddite,Price,Senegal,2.5
-Luddite,Price,"Iran, Islamic Republic of",1.6
+Luddite,Price,Iran, Islamic Republic of",1.6
 Luddite,Price,Philippines,4.9
 Luddite,Price,Togo,1.4
 Luddite,Price,Thailand,0.8999999999999999
@@ -5506,7 +5506,7 @@ Luddite,Price,Albania,0.5
 Luddite,Price,Bhutan,0.6
 Luddite,Price,Nigeria,1.4999999999999998
 Luddite,Price,Belize,1.0
-Luddite,Features,United Kingdom,37.00000000000001
+Luddite,Features,England,37.00000000000001
 Luddite,Features,India,40.300000000000004
 Luddite,Features,France,326.5000000000001
 Luddite,Features,Indonesia,15.2
@@ -5608,7 +5608,7 @@ Luddite,Features,Serbia,0.7
 Luddite,Features,Isle of Man,0.4
 Luddite,Features,Albania,0.19999999999999998
 Luddite,Features,Bhutan,0.5
-Luddite,Features,"Iran, Islamic Republic of",0.7999999999999999
+Luddite,Features,Iran, Islamic Republic of",0.7999999999999999
 Luddite,Features,Nigeria,2.2
 Luddite,Features,Belize,0.6
 Luddite,Privacy,India,33.300000000000004
@@ -5636,7 +5636,7 @@ Luddite,Privacy,Germany,186.10000000000005
 Luddite,Privacy,Bangladesh,4.999999999999999
 Luddite,Privacy,Reunion,11.9
 Luddite,Privacy,Turkey,1.2
-Luddite,Privacy,United Kingdom,34.79999999999999
+Luddite,Privacy,England,34.79999999999999
 Luddite,Privacy,Ecuador,11.900000000000002
 Luddite,Privacy,Switzerland,22.8
 Luddite,Privacy,Mayotte,1.7999999999999998
@@ -5707,12 +5707,12 @@ Luddite,Privacy,Namibia,0.6
 Luddite,Privacy,Mongolia,1.2999999999999998
 Luddite,Privacy,Serbia,0.4
 Luddite,Privacy,Isle of Man,0.7999999999999999
-Luddite,Privacy,Congo,0.7999999999999999
+Luddite,Privacy,Democratic Republic of the Congo,0.7999999999999999
 Luddite,Privacy,Anonymous Proxy,1.0
 Luddite,Privacy,Albania,0.7999999999999999
 Luddite,Privacy,Bhutan,0.9
 Luddite,Privacy,United Arab Emirates,0.1
-Luddite,Privacy,"Iran, Islamic Republic of",0.6
+Luddite,Privacy,Iran, Islamic Republic of",0.6
 Luddite,Privacy,Nigeria,2.3
 Luddite,Privacy,Belize,0.7999999999999999
 Luddite,Privacy,Egypt,0.7
@@ -5730,10 +5730,10 @@ Luddite,Convenience,India,12.999999999999998
 Luddite,Convenience,Germany,43.699999999999996
 Luddite,Convenience,Reunion,7.2
 Luddite,Convenience,Mayotte,0.8999999999999999
-Luddite,Convenience,"Iran, Islamic Republic of",0.7999999999999999
+Luddite,Convenience,Iran, Islamic Republic of",0.7999999999999999
 Luddite,Convenience,Switzerland,10.9
 Luddite,Convenience,Gabon,1.0
-Luddite,Convenience,United Kingdom,4.8
+Luddite,Convenience,England,4.8
 Luddite,Convenience,Algeria,5.499999999999999
 Luddite,Convenience,Bangladesh,2.0999999999999996
 Luddite,Convenience,Argentina,10.899999999999999
@@ -5801,7 +5801,7 @@ Luddite,Reliability,New Caledonia,0.7999999999999999
 Luddite,Reliability,Germany,152.9
 Luddite,Reliability,Bangladesh,2.3
 Luddite,Reliability,Turkey,1.4
-Luddite,Reliability,United Kingdom,32.1
+Luddite,Reliability,England,32.1
 Luddite,Reliability,Ecuador,8.7
 Luddite,Reliability,Switzerland,18.0
 Luddite,Reliability,Mayotte,0.8999999999999999
@@ -5821,7 +5821,7 @@ Luddite,Reliability,Slovenia,1.7999999999999998
 Luddite,Reliability,Nepal,1.7000000000000002
 Luddite,Reliability,Gabon,0.9
 Luddite,Reliability,Senegal,1.6
-Luddite,Reliability,"Iran, Islamic Republic of",1.0
+Luddite,Reliability,Iran, Islamic Republic of",1.0
 Luddite,Reliability,Reunion,6.000000000000001
 Luddite,Reliability,Philippines,2.5999999999999996
 Luddite,Reliability,Togo,1.9
@@ -5896,7 +5896,7 @@ Luddite,User Reviews,New Caledonia,1.0
 Luddite,User Reviews,Germany,77.29999999999995
 Luddite,User Reviews,Bangladesh,4.3
 Luddite,User Reviews,Turkey,0.3999999999999999
-Luddite,User Reviews,United Kingdom,15.499999999999996
+Luddite,User Reviews,England,15.499999999999996
 Luddite,User Reviews,Ecuador,8.499999999999998
 Luddite,User Reviews,Malta,1.2
 Luddite,User Reviews,Switzerland,8.5
@@ -5956,7 +5956,7 @@ Luddite,User Reviews,Saudi Arabia,0.6
 Luddite,User Reviews,Albania,0.7
 Luddite,User Reviews,Bhutan,0.4
 Luddite,User Reviews,United Arab Emirates,0.7999999999999999
-Luddite,User Reviews,"Iran, Islamic Republic of",0.5
+Luddite,User Reviews,Iran, Islamic Republic of",0.5
 Luddite,User Reviews,Madagascar,0.1
 Luddite,User Reviews,Burkina Faso,0.3999999999999999
 Luddite,User Reviews,Nigeria,1.1
@@ -5989,7 +5989,7 @@ Luddite,Expert Recommendation,Belgium,8.1
 Luddite,Expert Recommendation,Luxembourg,1.9
 Luddite,Expert Recommendation,Portugal,0.19999999999999998
 Luddite,Expert Recommendation,Austria,1.8999999999999997
-Luddite,Expert Recommendation,United Kingdom,4.3999999999999995
+Luddite,Expert Recommendation,England,4.3999999999999995
 Luddite,Expert Recommendation,Costa Rica,1.7999999999999998
 Luddite,Expert Recommendation,Algeria,5.0
 Luddite,Expert Recommendation,Reunion,1.9
@@ -6023,7 +6023,7 @@ Luddite,Expert Recommendation,Bulgaria,0.5
 Luddite,Expert Recommendation,South Africa,1.4
 Luddite,Expert Recommendation,Bhutan,0.19999999999999998
 Luddite,Expert Recommendation,United Arab Emirates,0.9
-Luddite,Expert Recommendation,"Iran, Islamic Republic of",0.19999999999999998
+Luddite,Expert Recommendation,Iran, Islamic Republic of",0.19999999999999998
 Luddite,Expert Recommendation,Madagascar,0.19999999999999998
 Luddite,Expert Recommendation,Burkina Faso,0.8
 Luddite,Expert Recommendation,Nigeria,1.2999999999999998
@@ -6055,7 +6055,7 @@ Luddite,Safety,New Caledonia,0.5
 Luddite,Safety,Germany,149.20000000000005
 Luddite,Safety,Bangladesh,5.2
 Luddite,Safety,Turkey,1.2
-Luddite,Safety,United Kingdom,30.3
+Luddite,Safety,England,30.3
 Luddite,Safety,Ecuador,15.200000000000001
 Luddite,Safety,Switzerland,20.1
 Luddite,Safety,Mayotte,1.7999999999999998
@@ -6065,7 +6065,7 @@ Luddite,Safety,Spain,47.39999999999999
 Luddite,Safety,Kenya,0.9999999999999999
 Luddite,Safety,Ireland,3.0999999999999996
 Luddite,Safety,Israel,0.4
-Luddite,Safety,"Iran, Islamic Republic of",2.6
+Luddite,Safety,Iran, Islamic Republic of",2.6
 Luddite,Safety,Zambia,0.7
 Luddite,Safety,South Africa,4.4
 Luddite,Safety,Romania,0.5
@@ -6127,7 +6127,7 @@ Luddite,Safety,Namibia,0.9
 Luddite,Safety,Mongolia,1.7
 Luddite,Safety,Serbia,0.5
 Luddite,Safety,Isle of Man,1.0
-Luddite,Safety,Congo,1.0
+Luddite,Safety,Democratic Republic of the Congo,1.0
 Luddite,Safety,Anonymous Proxy,0.9
 Luddite,Safety,Saudi Arabia,1.5999999999999999
 Luddite,Safety,Albania,0.9
@@ -6159,7 +6159,7 @@ Luddite,Security,New Caledonia,0.7
 Luddite,Security,Germany,201.30000000000013
 Luddite,Security,Bangladesh,5.2
 Luddite,Security,Turkey,1.4
-Luddite,Security,United Kingdom,41.89999999999998
+Luddite,Security,England,41.89999999999998
 Luddite,Security,Ecuador,10.899999999999999
 Luddite,Security,Switzerland,23.600000000000005
 Luddite,Security,Austria,10.000000000000002
@@ -6168,7 +6168,7 @@ Luddite,Security,Spain,43.89999999999999
 Luddite,Security,Kenya,1.0
 Luddite,Security,Ireland,2.3
 Luddite,Security,Israel,0.29999999999999993
-Luddite,Security,"Iran, Islamic Republic of",2.4
+Luddite,Security,Iran, Islamic Republic of",2.4
 Luddite,Security,Zambia,0.7999999999999999
 Luddite,Security,South Africa,6.6000000000000005
 Luddite,Security,Romania,1.8
@@ -6232,7 +6232,7 @@ Luddite,Security,Namibia,0.7999999999999999
 Luddite,Security,Mongolia,0.7999999999999999
 Luddite,Security,Serbia,0.6
 Luddite,Security,Isle of Man,0.9
-Luddite,Security,Congo,0.9
+Luddite,Security,Democratic Republic of the Congo,0.9
 Luddite,Security,Anonymous Proxy,0.7999999999999999
 Luddite,Security,Saudi Arabia,1.2999999999999998
 Luddite,Security,Albania,1.0
@@ -6244,7 +6244,7 @@ Luddite,Security,Egypt,0.7999999999999999
 Luddite,Friend or Family Recommendation,Brazil,20.000000000000004
 Luddite,Friend or Family Recommendation,USA,27.999999999999993
 Luddite,Friend or Family Recommendation,France,80.09999999999998
-Luddite,Friend or Family Recommendation,United Kingdom,5.899999999999999
+Luddite,Friend or Family Recommendation,England,5.899999999999999
 Luddite,Friend or Family Recommendation,Germany,61.0
 Luddite,Friend or Family Recommendation,Spain,14.600000000000003
 Luddite,Friend or Family Recommendation,Italy,73.00000000000001
@@ -6301,7 +6301,7 @@ Luddite,Friend or Family Recommendation,Togo,0.1
 Luddite,Friend or Family Recommendation,Bulgaria,0.9
 Luddite,Friend or Family Recommendation,Bhutan,0.29999999999999993
 Luddite,Friend or Family Recommendation,United Arab Emirates,1.0
-Luddite,Friend or Family Recommendation,"Iran, Islamic Republic of",0.4
+Luddite,Friend or Family Recommendation,Iran, Islamic Republic of",0.4
 Luddite,Friend or Family Recommendation,Madagascar,0.29999999999999993
 Luddite,Friend or Family Recommendation,Burkina Faso,1.4
 Luddite,Friend or Family Recommendation,Nigeria,0.30000000000000004

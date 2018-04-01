@@ -42,6 +42,7 @@ var paramLabels = svg.selectAll(".paramLabel")
 
 function heatmapChart(dataFile) {
 	d3.json(dataFile,
+<<<<<<< HEAD
 	// 	function(d) {
 	// 		// console.log(d);
 	// 		return {
@@ -54,6 +55,20 @@ function heatmapChart(dataFile) {
 		// console.log("params");
 		var colorScale = d3.scaleQuantile()
 		.domain([0, buckets - 1, d3.max(data, function (d) { return d.score; })])
+=======
+		function(d) {
+			return {
+			desc: d.nerd,
+			params: d.params,
+			score: d.score
+		};
+	},
+	function(error, data) {
+
+		
+		var colorScale = d3.scale.quantile()
+		.domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
+>>>>>>> 10ba9721e1a1bf3188d739959ac8c8b5e2a0d007
 		.range(colors);
 		console.log(colorScale);
 		var cards = svg.selectAll("rect")
