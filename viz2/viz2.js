@@ -25,7 +25,7 @@ var color = d3.scaleThreshold()
 
 var path = d3.geoPath();
 
-var svg = d3.select("body")
+var svg = d3.select("#plot2")
   .append("svg")
   .attr("width", width)
   .attr("height", height)
