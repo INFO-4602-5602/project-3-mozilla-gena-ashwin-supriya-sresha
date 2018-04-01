@@ -20,7 +20,7 @@
   "score": 6909.799999999981
 }, {
   "nerd": "Technically Savvy",
-  "params": "Expert Recommendation",
+  "params": "Expert Recomm.",
   "score": 6423.200000000052
 }, {
   "nerd": "Technically Savvy",
@@ -36,7 +36,7 @@
   "score": 17665.79999999968
 }, {
   "nerd": "Technically Savvy",
-  "params": "Friend or Family Recommendation",
+  "params": "Friend/Family Recomm.",
   "score": 4213.699999999692
 }, {
   "nerd": "Average User",
@@ -64,7 +64,7 @@
   "score": 7242.099999999991
 }, {
   "nerd": "Average User",
-  "params": "Expert Recommendation",
+  "params": "Expert Recomm.",
   "score": 5848.300000000055
 }, {
   "nerd": "Average User",
@@ -76,7 +76,7 @@
   "score": 20358.20000000008
 }, {
   "nerd": "Average User",
-  "params": "Friend or Family Recommendation",
+  "params": "Friend/Family Recomm.",
   "score": 4968.499999999975
 }, {
   "nerd": "nan",
@@ -100,7 +100,7 @@
   "score": 364.6
 }, {
   "nerd": "nan",
-  "params": "Expert Recommendation",
+  "params": "Expert Recomm.",
   "score": 121.79999999999994
 }, {
   "nerd": "nan",
@@ -116,7 +116,7 @@
   "score": 395.90000000000043
 }, {
   "nerd": "nan",
-  "params": "Friend or Family Recommendation",
+  "params": "Friend/Family Recomm.",
   "score": 94.19999999999996
 }, {
   "nerd": "Ultra Nerd",
@@ -140,7 +140,7 @@
   "score": 5277.400000000007
 }, {
   "nerd": "Ultra Nerd",
-  "params": "Expert Recommendation",
+  "params": "Expert Recomm.",
   "score": 1499.2999999999986
 }, {
   "nerd": "Ultra Nerd",
@@ -156,7 +156,7 @@
   "score": 5684.89999999997
 }, {
   "nerd": "Ultra Nerd",
-  "params": "Friend or Family Recommendation",
+  "params": "Friend/Family Recomm.",
   "score": 947.9000000000212
 }, {
   "nerd": "Luddite",
@@ -184,7 +184,7 @@
   "score": 674.5000000000015
 }, {
   "nerd": "Luddite",
-  "params": "Expert Recommendation",
+  "params": "Expert Recomm.",
   "score": 415.99999999999926
 }, {
   "nerd": "Luddite",
@@ -196,6 +196,6 @@
   "score": 1452.3000000000004
 }, {
   "nerd": "Luddite",
-  "params": "Friend or Family Recommendation",
+  "params": "Friend/Family Recomm.",
   "score": 417.10000000000053
 }]
