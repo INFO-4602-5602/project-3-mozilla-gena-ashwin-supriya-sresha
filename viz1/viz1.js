@@ -5,7 +5,7 @@ var margin = { top: 50, right: 0, bottom: 100, left: 120 },
 	legendElementWidth = gridSize*2,
 	buckets = 10,
 	// colors = ["red","blue","green","yellow"],
-	colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"],
+	colors = ["#48A36D",  "#56AE7C",  "#64B98C", "#72C39B", "#80CEAA", "#80CCB3", "#7FC9BD", "#7FC7C6", "#7EC4CF", "#7FBBCF", "#7FB1CF", "#80A8CE", "#809ECE", "#8897CE", "#8F90CD", "#9788CD", "#9E81CC", "#AA81C5", "#B681BE", "#C280B7", "#CE80B0", "#D3779F", "#D76D8F", "#DC647E", "#E05A6D", "#E16167", "#E26962", "#E2705C", "#E37756", "#E38457", "#E39158", "#E29D58", "#E2AA59", "#E0B15B", "#DFB95C", "#DDC05E", "#DBC75F", "#E3CF6D", "#EAD67C", "#F2DE8A"],
 	desc = ["Ultra Nerd", "Technically Savvy", "Average User", "Luddite","nan"],
 	parameters = ["Price", "Features", "Reliability", "User Reviews", "Convenience", "Expert Recomm.", "Privacy", "Security", "Safety", "Friend/Family Recomm."];
 	dataset = "viz1.json";
@@ -42,33 +42,9 @@ var paramLabels = svg.selectAll(".paramLabel")
 
 function heatmapChart(dataFile) {
 	d3.json(dataFile,
-<<<<<<< HEAD
-	// 	function(d) {
-	// 		// console.log(d);
-	// 		return {
-	// 		desc: d.nerd,
-	// 		params: d.params,
-	// 		score: d.score
-	// 	};
-	// },
-	function(data) {
-		// console.log("params");
+	function(error, data) {
 		var colorScale = d3.scaleQuantile()
 		.domain([0, buckets - 1, d3.max(data, function (d) { return d.score; })])
-=======
-		function(d) {
-			return {
-			desc: d.nerd,
-			params: d.params,
-			score: d.score
-		};
-	},
-	function(error, data) {
-
-		
-		var colorScale = d3.scale.quantile()
-		.domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
->>>>>>> 10ba9721e1a1bf3188d739959ac8c8b5e2a0d007
 		.range(colors);
 		console.log(colorScale);
 		var cards = svg.selectAll("rect")
@@ -83,10 +59,10 @@ function heatmapChart(dataFile) {
 		.attr("y", function(d) { return (desc.indexOf(d.nerd))*gridSize; })
 		.attr("rx", 4)
 		.attr("ry", 4)
-		.attr("class", "hour bordered")
+		.attr("class", "params bordered")
 		.attr("width", gridSize)
 		.attr("height", gridSize)
-		.style("fill", colors[5]);
+		.style("fill", function(d) { return colorScale(d.score); });
 
 		cards.transition().duration(1000)
 		.style("fill", function(d) { return colorScale(d.score); });
