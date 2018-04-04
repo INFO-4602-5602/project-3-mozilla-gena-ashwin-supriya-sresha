@@ -53,6 +53,7 @@ function ready(error, data, population) {
     if (d.nerd == "Technically Savvy" && d.params == "User Reviews") populationById[d.country] = d.score;
   });
   data.features.forEach(function(d) {
+    populationList.
     d.population = +populationById[d.properties.name]
   });
   console.log(data.features);
@@ -71,9 +72,9 @@ function ready(error, data, population) {
   console.log(max);
 
   var buckets = 10;
-  var colorScale = d3.scaleLinear()
-    .domain([0,mid,max])
-    .range(colors);
+  var colorScale1 = d3.scaleQuantile()
+    .domain(extent)
+    .range(colors1);
 
   // colorScale = d3.scaleOrdinal(d3.schemePastel1);
 
