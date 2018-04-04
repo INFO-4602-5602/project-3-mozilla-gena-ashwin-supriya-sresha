@@ -8,7 +8,7 @@ var tip1 = d3.tip()
 
 var margin = {top: 50, right: 0, bottom: 100, left: 120},
   width = 1300 - margin.left - margin.right,
-  height = 1000 - margin.top - margin.bottom,
+  height = 750 - margin.top - margin.bottom,
   gridSize = Math.floor(width / 10),
   legendElementWidth = gridSize * 2,
   buckets = 10,
