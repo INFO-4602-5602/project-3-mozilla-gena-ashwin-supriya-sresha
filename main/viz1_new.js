@@ -1,5 +1,5 @@
 // Set tooltips
-var tip = d3.tip()
+var tip1 = d3.tip()
   .attr('class', 'd3-tip')
   .offset([100, 0])
   .html(function(d) {
@@ -64,7 +64,7 @@ var paramLabels = svg.selectAll(".paramLabel")
     return ((i >= 0 && i <= 9) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis");
   });
 
-svg.call(tip);
+svg.call(tip1);
 
 function heatmapChart(dataFile) {
   d3.json(dataFile,
@@ -137,7 +137,7 @@ function heatmapChart(dataFile) {
         .style("stroke", "white")
         .style('stroke-width', 0.3)
         .on('mouseover', function(d) {
-          tip.show(d);
+          tip1.show(d);
 
           d3.select(this)
             .style("opacity", 1)
@@ -145,7 +145,7 @@ function heatmapChart(dataFile) {
             .style("stroke-width", 3);
         })
         .on('mouseout', function(d) {
-          tip.hide(d);
+          tip1.hide(d);
 
           d3.select(this)
             .style("opacity", 0.8)
