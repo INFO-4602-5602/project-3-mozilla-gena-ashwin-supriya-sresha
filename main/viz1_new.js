@@ -141,9 +141,9 @@ function heatmapChart(dataFile) {
           var descNum = desc.indexOf(d.nerd)
           if (descNum == "0") scale =  colorScale1;
           else if (descNum == "1") scale= colorScale2;
-          else if (descNum == "2") scale=   colorScale3;
-          else if (descNum == "3") scale=   colorScale4;
-          else if (descNum == "4") scale=   colorScale5;
+          else if (descNum == "2") scale= colorScale3;
+          else if (descNum == "3") scale= colorScale4;
+          else if (descNum == "4") scale= colorScale5;
           ready(d.nerd,d.params,scale)
         })
         .on('mouseover', function(d) {
