@@ -45,3 +45,66 @@ y.domain([0, d3.max(data, function(d) {return d[yVal];})]);
       .attr("r", 5)
       .attr("cx", function(d){return x(d[xVal]);})
       .attr("cy", function(d){return y(d[yVal]);});
+    //  .attr("fill","pink")
+    //  .transition()
+    //  .ease(d3.easeBounce)
+    //  .duration(4000);
+      //.attr("r", function(d){return d["TFIDF"];});
+
+  // Add the X Axis
+  svg.append("g")
+    .attr("transform","translate(0, " + height +")")
+    .call(d3.axisBottom(x));
+
+  // Add the Y Axis
+  svg.append("g")
+    .call(d3.axisLeft(y));
+
+  //Add text labels
+    var xLabel = svg.append("text")
+                    .attr("class", "label")
+                    .text(xVal)
+                    .attr("x", width - 20)
+                    .attr("y", height - 10);
+
+    var yLabel = svg.append("text")
+                    .attr("class", "label")
+                    .text(yVal)
+                    .attr("y", -10)
+                    .attr("transform", "rotate(90)")
+                    .style("text-anchor", "start");
+
+});
+
+// A function to retrieve the next value in the vals list
+function getNextVal(val) {
+	return vals[(vals.indexOf(val) + 1) % vals.length];
+};
+
+// A function to change what values we plot on the x-axis
+function setXval(val) {
+	// Update xVal
+	xVal = val;
+	// Update the axis
+	xScale.domain([d3.min(data, function(d) { return parseFloat(d[xVal]); })-1,
+				   d3.max(data, function(d) { return parseFloat(d[xVal]); })+1])
+	xAxis.scale(xScale);
+	xAxisG.call(xAxis);
+	xLabel.text(xVal);
+	// Update the points
+
+};
+
+// A function to change what values we plot on the y-axis
+function setYval(val) {
+	// Update yVal
+	yVal = val;
+	// Update the axis
+	yScale.domain([d3.min(data, function(d) { return parseFloat(d[yVal]); })-1,
+				   d3.max(data, function(d) { return parseFloat(d[yVal]); })+1])
+	yAxis.scale(yScale);
+	yAxisG.call(yAxis);
+	yLabel.text(yVal);
+	// Update the points
+
+};
