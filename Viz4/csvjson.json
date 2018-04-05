@@ -1,0 +1,177 @@
+[
+  {
+    "NerdLevel": "Average User",
+    "Trust": "creators",
+    "Count": 11052
+  },
+  {
+    "NerdLevel": "Average User",
+    "Trust": "friends/fam",
+    "Count": 12749
+  },
+  {
+    "NerdLevel": "Average User",
+    "Trust": "govt",
+    "Count": 1681
+  },
+  {
+    "NerdLevel": "Average User",
+    "Trust": "media",
+    "Count": 2135
+  },
+  {
+    "NerdLevel": "Average User",
+    "Trust": "orgs",
+    "Count": 27437
+  },
+  {
+    "NerdLevel": "Average User",
+    "Trust": "unsure",
+    "Count": 22598
+  },
+  {
+    "NerdLevel": "Average User",
+    "Trust": "(blank)",
+    "Count": 2826
+  },
+  {
+    "NerdLevel": "Luddite",
+    "Trust": "creators",
+    "Count": 666
+  },
+  {
+    "NerdLevel": "Luddite",
+    "Trust": "friends/fam",
+    "Count": 1256
+  },
+  {
+    "NerdLevel": "Luddite",
+    "Trust": "govt",
+    "Count": 208
+  },
+  {
+    "NerdLevel": "Luddite",
+    "Trust": "media",
+    "Count": 130
+  },
+  {
+    "NerdLevel": "Luddite",
+    "Trust": "orgs",
+    "Count": 1536
+  },
+  {
+    "NerdLevel": "Luddite",
+    "Trust": "unsure",
+    "Count": 2988
+  },
+  {
+    "NerdLevel": "Luddite",
+    "Trust": "(blank)",
+    "Count": 569
+  },
+  {
+    "NerdLevel": "Technically Savvy",
+    "Trust": "creators",
+    "Count": 11472
+  },
+  {
+    "NerdLevel": "Technically Savvy",
+    "Trust": "friends/fam",
+    "Count": 7491
+  },
+  {
+    "NerdLevel": "Technically Savvy",
+    "Trust": "govt",
+    "Count": 1530
+  },
+  {
+    "NerdLevel": "Technically Savvy",
+    "Trust": "media",
+    "Count": 2460
+  },
+  {
+    "NerdLevel": "Technically Savvy",
+    "Trust": "orgs",
+    "Count": 31397
+  },
+  {
+    "NerdLevel": "Technically Savvy",
+    "Trust": "unsure",
+    "Count": 17454
+  },
+  {
+    "NerdLevel": "Technically Savvy",
+    "Trust": "(blank)",
+    "Count": 2134
+  },
+  {
+    "NerdLevel": "Ultra Nerd",
+    "Trust": "creators",
+    "Count": 2658
+  },
+  {
+    "NerdLevel": "Ultra Nerd",
+    "Trust": "friends/fam",
+    "Count": 1378
+  },
+  {
+    "NerdLevel": "Ultra Nerd",
+    "Trust": "govt",
+    "Count": 353
+  },
+  {
+    "NerdLevel": "Ultra Nerd",
+    "Trust": "media",
+    "Count": 559
+  },
+  {
+    "NerdLevel": "Ultra Nerd",
+    "Trust": "orgs",
+    "Count": 9338
+  },
+  {
+    "NerdLevel": "Ultra Nerd",
+    "Trust": "unsure",
+    "Count": 4275
+  },
+  {
+    "NerdLevel": "Ultra Nerd",
+    "Trust": "(blank)",
+    "Count": 1056
+  },
+  {
+    "NerdLevel": "undescribed",
+    "Trust": "creators",
+    "Count": 355
+  },
+  {
+    "NerdLevel": "undescribed",
+    "Trust": "friends/fam",
+    "Count": 315
+  },
+  {
+    "NerdLevel": "undescribed",
+    "Trust": "govt",
+    "Count": 98
+  },
+  {
+    "NerdLevel": "undescribed",
+    "Trust": "media",
+    "Count": 60
+  },
+  {
+    "NerdLevel": "undescribed",
+    "Trust": "orgs",
+    "Count": 502
+  },
+  {
+    "NerdLevel": "undescribed",
+    "Trust": "unsure",
+    "Count": 603
+  },
+  {
+    "NerdLevel": "undescribed",
+    "Trust": "(blank)",
+    "Count": 9335
+  }
+]
