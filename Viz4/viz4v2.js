@@ -1,22 +1,13 @@
-// // First, we will create some constants to define non-data-related parts of the visualization
-// var w = 700; // Width of our visualization
-// var h = 500; // Height of our visualization
-// var xOffset = 40; // Space for x-axis labels
-// var yOffset = 100; // Space for y-axis labels
-// var margin = 10; // Margin around visualization
 var nerdiness = ["","Ultra Nerd", "Technically Savvy","Average User","Luddite","Undescribed", ""]
-// var vals = ['Nerdlevel Number', 'Count']; // List of data attributes
-// var xVal = "vals[0]; // Value to plot on x-axis"
-var xVal = "NerdlevelNumber"
-// var yVal = vals[1]; // Value to plot on y-axis
-var yVal = "Count"
 
 
+
+function lineGraph(){
 // set the dimensions and margins of the graph
 var margin = {top: 20, right: 20, bottom: 30, left: 100};
 var width = 960 - margin.left - margin.right
 var height = 500 - margin.top - margin.bottom;
-
+var gridsize = width/6;
 // set the ranges
 var x = d3.scaleLinear().range([0, width]).domain([0, 6, 12]);
 var y = d3.scaleLinear().range([height, 0]);
@@ -30,25 +21,18 @@ var svg4 = d3.select("#line").append("svg")
             .append("g")
             .attr("transform", "translate("+margin.left + "," + margin.top + ")");
 
-//
 // // Get the data
-d3.csv("Viz4-1.csv", function(error, data){
+d3.csv("viz4-line.csv", function(error, data){
   if (error) throw error;
-
+  // console.log("max count"+ d3.max(data, function(d) {return +d.Count;}));
+  y.domain([0, d3.max(data, function(d) {return +d.Count;})]);
   var line_values = d3.line()
-            .x(function(d){return x(d.NerdlevelNumber);})
+            .x(function(d){return nerdiness.indexOf(d.NerdLevel)*gridsize;})
             .y(function(d){return y(d.Count);})
             //.curve(d3.curveLinear);
-
   var xAxis4 = d3.axisBottom(x).tickFormat(function(d, i) {
-        return nerdiness[i];
-      });
-  // data.sort(function(a,b){
-  //   return d3.ascending(a.x,b.x);
-  // });
-  // Scale theprange of the data
-//x.domain([0,d3.max(data, function(d) {return d[xVal];})]);
-y.domain([0, d3.max(data, function(d) {return d[yVal];})]);
+                  return nerdiness[i];
+                });
 
 svg4.append("path")
   .datum(data)
@@ -65,13 +49,9 @@ svg4.append("path")
       .enter()
       .append("circle")
       .attr("r", 5)
-      .attr("cx", function(d){return x(d.NerdlevelNumber);})
+      .attr("cx", function(d){return nerdiness.indexOf(d.NerdLevel)*gridsize;})
       .attr("cy", function(d){return y(d.Count);});
-    //  .attr("fill","pink")
-    //  .transition()
-    //  .ease(d3.easeBounce)
-    //  .duration(4000);
-      //.attr("r", function(d){return d["TFIDF"];});
+
 
   // Add the X Axis
   svg4.append("g")
@@ -98,36 +78,103 @@ svg4.append("path")
                     .style("text-anchor", "start");
 
  });
-//
-// // A function to retrieve the next value in the vals list
-// function getNextVal(val) {
-// 	return vals[(vals.indexOf(val) + 1) % vals.length];
-// };
-//
-// // A function to change what values we plot on the x-axis
-// function setXval(val) {
-// 	// Update xVal
-// 	xVal = val;
-// 	// Update the axis
-// 	xScale.domain([d3.min(data, function(d) { return parseFloat(d[xVal]); })-1,
-// 				   d3.max(data, function(d) { return parseFloat(d[xVal]); })+1])
-// 	xAxis.scale(xScale);
-// 	xAxisG.call(xAxis);
-// 	xLabel.text(xVal);
-// 	// Update the points
-//
-// };
-//
-// // A function to change what values we plot on the y-axis
-// function setYval(val) {
-// 	// Update yVal
-// 	yVal = val;
-// 	// Update the axis
-// 	yScale.domain([d3.min(data, function(d) { return parseFloat(d[yVal]); })-1,
-// 				   d3.max(data, function(d) { return parseFloat(d[yVal]); })+1])
-// 	yAxis.scale(yScale);
-// 	yAxisG.call(yAxis);
-// 	yLabel.text(yVal);
-// 	// Update the points
-//
-// };
+}
+
+lineGraph();
+//Create a new array to store json file
+var barChartData = []
+
+
+// set the dimensions and margins of the graph
+var margin = {top: 20, right: 20, bottom: 30, left: 50};
+var width = 660 - margin.left - margin.right
+var height = 500 - margin.top - margin.bottom;
+var barPadding = 1;
+var nerdGroup = "Luddite"
+
+function nerdSelection(nerdGroup){
+  var description = [];
+    for (x in barChartData){
+      if (barChartData[x].nerdLevel == nerdGroup) {
+        description.push(barChartData[x]);
+      }
+    }
+    return description;
+}
+
+function barChart(nerdlevel){
+var firstBarChartData = nerdSelection(nerdlevel);
+
+// set the ranges
+var xScale = d3.scaleLinear()
+.domain([0,firstBarChartData.length])
+.range([0, width]);
+var yScale = d3.scaleLinear()
+.domain([0, d3.max(firstBarChartData, function(d) {
+  return d.trustCount;
+})])
+.range([height, 0]);
+
+// append the svg obgect to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var barsvg = d3.select("#bar").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate("+margin.left + "," + margin.top + ")");
+barsvg.selectAll("bar")
+    .data(firstBarChartData)
+    .enter()
+    .append("rect")
+    .attr("x", function(d, i) {
+        return xScale(i);
+    })
+    .attr("width", width / firstBarChartData.length - barPadding)
+    .attr("y",function(d) {
+        return yScale(d.trustCount);
+    })
+    .attr("height", function(d){
+        return height - yScale(d.trustCount);
+      })
+      .style("fill", "pink");
+
+      var xAxis4 = d3.axisBottom(xScale).tickFormat(function(d, i) {
+                      return nerdiness[i];
+                    });
+      // Add the X Axis
+      barsvg.append("g")
+        .attr("transform","translate(0, " + height +")")
+        .call(xAxis4);
+
+      // Add the Y Axis
+      barsvg.append("g")
+        .call(d3.axisLeft(yScale));
+    //
+      //Add text labels
+        var xLabel = barsvg.append("text")
+                        .attr("class", "label")
+                        .text("Nerdiness")
+                        .attr("x", width - 60)
+                        .attr("y", height -10);
+
+        var yLabel = barsvg.append("text")
+                        .attr("class", "label")
+                        .text("Count")
+                        .attr("x", -250)
+                        .attr("y", -50)
+                        .attr("transform", "rotate(-90)")
+                        .style("text-anchor", "start");
+  }
+
+d3.json('viz4-bar.json', function(error, data) {
+  d3.select("#bar")
+    .data(data.filter(function(d) {
+      barChartData.push({
+          nerdLevel: d.nerdLevel,
+          trust: d.trust,
+          trustCount: d.trustCount
+      });
+    }));
+    barChart(nerdGroup);
+});
