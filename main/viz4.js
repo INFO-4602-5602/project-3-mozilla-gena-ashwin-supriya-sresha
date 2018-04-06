@@ -3,7 +3,7 @@ var tip41 = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-7, 0])
   .html(function(d) {
-    return "<strong>Privacy loss: </strong><span class='details'>" + d.Count + "</span>";
+    return "<strong>Count: </strong><span class='details'>" + d.Count + "</span>";
   })
 
 var nerdiness = ["","Ultra Nerd", "Technically Savvy","Average User","Luddite","Undescribed", ""]
@@ -98,7 +98,7 @@ svg4.append("path")
 
     var yLabel = svg4.append("text")
                     .attr("class", "label")
-                    .text("Privacy loss")
+                    .text("Count")
                     .attr("x", -205)
                     .attr("y", -50)
                     .attr("transform", "rotate(-90)")
