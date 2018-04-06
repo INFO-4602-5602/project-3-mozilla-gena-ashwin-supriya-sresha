@@ -191,8 +191,8 @@ var margin = {
 
 
 var colorScale = d3.scaleThreshold()
-  .domain([10000, 100000, 500000, 1000000, 5000000, 10000000, 50000000, 100000000, 500000000, 1500000000])
-  .range(["#fef0bc","#fee690","#fedc64","#fed74e","#fece22","#fec809"]);
+  .domain([.01,1000, 10000, 50000, 1000000, 5000000, 10000000, 50000000, 100000000, 500000000, 1500000000])
+  .range(["#f4c8c8","#eda3a3","#e47373","#e05d5d", "#dc4848","#d83333"]);
 
 var path = d3.geoPath();
 
@@ -210,8 +210,8 @@ var projection = d3.geoMercator()
 var path = d3.geoPath().projection(projection);
 
 svg1.call(tip);
-var nerdLevel="Technically Savvy";
-var param="User Reviews";
+var nerdLevel="Ultra Nerd";
+var param="Expert Recomm.";
 function ready(nerdLevel,param,colorScale) {
 
   d3.json('world_countries.json', function(error, data) {
@@ -291,11 +291,11 @@ function ready(nerdLevel,param,colorScale) {
     .attr("d", path);
 		var hsvg = d3.select("#header")
 		  .append("svg")
-		  .attr("width", width)
+		  .attr("width", 1260 - margin.left - margin.right)
 		  .attr("height", 40)
 		  .append('g');
 		hsvg.append("text")
-		    .attr("x", (width + margin.left + margin.right) / 2)
+		    .attr("x", (1260) / 2)
 		    .attr("y", 15)
 		    .attr("class", "title")
 		    .attr("text-anchor", "middle")
