@@ -4,9 +4,9 @@ var nerdiness = ["","Ultra Nerd", "Technically Savvy","Average User","Luddite","
 
 function lineGraph(){
 // set the dimensions and margins of the graph
-var margin = {top: 20, right: 20, bottom: 30, left: 100};
-var width = 960 - margin.left - margin.right
-var height = 500 - margin.top - margin.bottom;
+var margin = {top: 50, right: 20, bottom: 30, left: 100};
+var width = 760 - margin.left - margin.right
+var height = 450 - margin.top - margin.bottom;
 var gridsize = width/6;
 // set the ranges
 var x = d3.scaleLinear().range([0, width]).domain([0, 6, 12]);
@@ -37,9 +37,9 @@ d3.csv("viz4-line.csv", function(error, data){
 svg4.append("path")
   .datum(data)
   .attr("class","line")
-  .attr("stroke","#66FF66")
+  .attr("stroke","#7fc1c2")
   .attr("fill","none")
-  .attr("stroke-width","5px")
+  .attr("stroke-width","2px")
   .attr("d",line_values);
 
 
@@ -48,9 +48,13 @@ svg4.append("path")
       .data(data)
       .enter()
       .append("circle")
+			.attr("fill","#006a6c")
       .attr("r", 5)
       .attr("cx", function(d){return nerdiness.indexOf(d.NerdLevel)*gridsize;})
-      .attr("cy", function(d){return y(d.Count);});
+      .attr("cy", function(d){return y(d.Count);})
+			.on("click", function(d){
+				document.getElementById("bar").innerHTML = "";
+				return barChart(d.NerdLevel);});
 
 
   // Add the X Axis
@@ -84,12 +88,12 @@ lineGraph();
 //Create a new array to store json file
 var barChartData = []
 
-
+var trustFactor = ["creators","friends/fam","govt","media","orgs","unsure","unanswered"];
 // set the dimensions and margins of the graph
-var margin = {top: 20, right: 20, bottom: 30, left: 50};
-var width = 660 - margin.left - margin.right
-var height = 500 - margin.top - margin.bottom;
-var barPadding = 1;
+var margin = {top: 50, right: 20, bottom: 30, left: 100};
+var width = 750 - margin.left - margin.right
+var height = 450 - margin.top - margin.bottom;
+var barPadding = 5;
 var nerdGroup = "Luddite"
 
 function nerdSelection(nerdGroup){
@@ -140,7 +144,7 @@ barsvg.selectAll("bar")
       .style("fill", "pink");
 
       var xAxis4 = d3.axisBottom(xScale).tickFormat(function(d, i) {
-                      return nerdiness[i];
+                      return trustFactor[i];
                     });
       // Add the X Axis
       barsvg.append("g")
@@ -154,9 +158,9 @@ barsvg.selectAll("bar")
       //Add text labels
         var xLabel = barsvg.append("text")
                         .attr("class", "label")
-                        .text("Nerdiness")
+                        .text("Trust Factor")
                         .attr("x", width - 60)
-                        .attr("y", height -10);
+                        .attr("y", height - 10);
 
         var yLabel = barsvg.append("text")
                         .attr("class", "label")
