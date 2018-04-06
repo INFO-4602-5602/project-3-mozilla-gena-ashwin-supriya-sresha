@@ -7,9 +7,9 @@ var tip1 = d3.tip()
     return "<strong>Score: </strong><span class='details'>" + formatAsPercentage((d.score).toFixed(3)) + "</span>";
   })
 
-var margin = {top: 50, right: 0, bottom: 100, left: 120},
+var margin = {top: 30, right: 0, bottom: 100, left: 120},
   width = 1300 - margin.left - margin.right,
-  height = 750 - margin.top - margin.bottom,
+  height = 670 - margin.top - margin.bottom,
   gridSize = Math.floor(width / 10),
   legendElementWidth = gridSize * 2,
   buckets = 10,
@@ -42,10 +42,7 @@ var descLabels = svg.selectAll(".descLabel")
   })
   .style("text-anchor", "end")
   .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
-  .attr("class", function(d, i) {
-    return ((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis");
-  })
-	;
+  .attr("class", "timeLabel mono axis axis-worktime");
 
 var paramLabels = svg.selectAll(".paramLabel")
   .data(parameters)
@@ -61,9 +58,7 @@ var paramLabels = svg.selectAll(".paramLabel")
   .attr("y", 0)
   .style("text-anchor", "middle")
   .attr("transform", "translate(" + gridSize / 2 + ", -5)")
-  .attr("class", function(d, i) {
-    return ((i >= 0 && i <= 9) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis");
-  });
+  .attr("class", "timeLabel mono axis axis-worktime");
 
 svg.call(tip1);
 
@@ -299,9 +294,9 @@ function ready(nerdLevel,param,colorScale) {
 		    .attr("y", 15)
 		    .attr("class", "title")
 		    .attr("text-anchor", "middle")
-		    .style("font-size", "16px")
-		    .attr("font-weight", "bold")
-		    .text("Distribution of " + nerdLevel + " for " + param + " option.");
+		    .style("font-size", "17px")
+		    // .attr("font-weight", "bold")
+		    .text("Distribution of " + nerdLevel + " for " + param + " option");
 
      });
        });

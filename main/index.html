@@ -1,30 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Main</title>
-  <!-- <link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="viz1.css"> -->
-	<style>
-      rect.bordered {
-        stroke: #E6E6E6;
-        stroke-width:2px;
-      }
-
-      text.mono {
-        font-size: 9pt;
-        font-family: Consolas, courier;
-        fill: #aaa;
-      }
-
-      text.axis-workweek {
-        fill: #000;
-      }
-
-      text.axis-worktime {
-        fill: #000;
-      }
-
-  </style>
+  <title>Mozilla Survey - Team 9</title>
   <script src="https://d3js.org/d3.v4.min.js"></script>
 	<script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css" />
@@ -77,15 +54,23 @@
 </head>
 <body>
     <div id="viz1">
+			<h2 style="margin-left: 20px;">Visualization 1: A heat map depicting the order of importance for options in the columns </h2>
+			<p style="margin-left: 30px;">Click on a box to view the global distribution of the people who fall under that category in the second visualization</p>
+			<br />
         <div id="heatmap"></div>
     </div>
     <div id="viz2" style="position:relative;">
+			<h2 style="margin-left: 20px;">Visualization 2: Global distribution for the option clicked on in the first visualization</h2>
 			<div id="header"></div>
       <div id="plot2"></div>
     </div>
     <script src="d3-tip.js"></script>
     <script src="viz1_new.js"></script>
     <!-- <script src="viz2.js"></script> -->
+		<br/>
+		<div>
+			<h2 style="margin-left: 20px;">Visualization 3: Distribution curves for --fill more info here sreesha!!--</h2>
+			<p style="margin-left: 30px;">Take the quiz beside the graph to know which description you fall under</p>
     <div id = "viz3" style="position:relative">
     <div id = "distcurve" style="display:inline-block;float:left;width:900px">
     </div>
@@ -111,11 +96,13 @@
         </fieldset>
       </form>
     </div>
-   </div>
+   </div></div>
     <br/>
     <br/>
   <script src = "viz3.js"></script>
   <div id="Viz4">
+		<h2 style="margin-left: 20px;">Visualization 4: Distribution details for people whose biggest fear is privacy loss with a more connected future and the corresponding factors they trust to help protect safety and privacy online</h2>
+		<p style="margin-left: 30px;">Click on a point in the line graph to view the distribution of trust factors</p>
     <div id="line" class="side1"></div>
     <div id="bar" class="side1"></div>
   </div>

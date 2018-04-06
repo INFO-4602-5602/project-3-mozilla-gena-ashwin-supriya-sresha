@@ -73,7 +73,7 @@ svg4.append("path")
 
     var yLabel = svg4.append("text")
                     .attr("class", "label")
-                    .text("Count")
+                    .text("Privacy loss")
                     .attr("x", -205)
                     .attr("y", -50)
                     .attr("transform", "rotate(-90)")
@@ -86,7 +86,7 @@ lineGraph();
 //Create a new array to store json file
 var barChartData = []
 
-var trustFactor = ["","creators","","friends/fam","","govt","","media","","orgs","","unsure","","unanswered",""];
+var trustFactor = ["","Creators","","Friends/Family","","Govt","","Media","","Non-Profit Org.","","Unsure","","Unanswered",""];
 var blank = ["","","","","","","",""];
 
 // set the dimensions and margins of the graph
