@@ -220,15 +220,16 @@ barsvg.selectAll("bar")
 			.append('g');
 		hsvg1.append("text")
 				.attr("x",300)
-				.attr("y", 10)
+				.attr("y", 15)
 				.attr("class", "title")
 				.attr("text-anchor", "start")
 				.style("font-size", "16px")
 				.attr("font-weight", "bold")
 				.text("Fear of privacy loss");
+
 		hsvg1.append("text")
 				.attr("x",1060)
-				.attr("y", 10)
+				.attr("y", 15)
 				.attr("class", "title")
 				.attr("text-anchor", "start")
 				.style("font-size", "16px")
