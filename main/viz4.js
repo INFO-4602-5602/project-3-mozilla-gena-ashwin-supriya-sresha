@@ -1,3 +1,11 @@
+// Set tooltips
+var tip41 = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-7, 0])
+  .html(function(d) {
+    return "<strong>Privacy loss: </strong><span class='details'>" + d.Count + "</span>";
+  })
+
 var nerdiness = ["","Ultra Nerd", "Technically Savvy","Average User","Luddite","Undescribed", ""]
 
 function lineGraph(){
@@ -18,7 +26,7 @@ var svg4 = d3.select("#line").append("svg")
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate("+margin.left + "," + margin.top + ")");
-
+svg4.call(tip41);
 // // Get the data
 d3.csv("viz4-line.csv", function(error, data){
   if (error) throw error;
@@ -35,7 +43,7 @@ d3.csv("viz4-line.csv", function(error, data){
 svg4.append("path")
   .datum(data)
   .attr("class","line")
-  .attr("stroke","#7fc1c2")
+  .attr("stroke","#d83333")
   .attr("fill","none")
   .attr("stroke-width","2px")
   .attr("d",line_values);
@@ -46,13 +54,29 @@ svg4.append("path")
       .data(data)
       .enter()
       .append("circle")
-			.attr("fill","#006a6c")
+			.attr("fill","#800000")
       .attr("r", 5)
       .attr("cx", function(d){return nerdiness.indexOf(d.NerdLevel)*gridsize;})
       .attr("cy", function(d){return y(d.Count);})
 			.on("click", function(d){
 				document.getElementById("bar").innerHTML = "";
-				return barChart(d.NerdLevel);});
+				return barChart(d.NerdLevel);})
+			.on('mouseover', function(d) {
+				tip41.show(d);
+
+				d3.select(this)
+					.style("opacity", 1)
+					.style("stroke", "white")
+					.style("stroke-width", 3);
+			})
+			.on('mouseout', function(d) {
+				tip41.hide(d);
+
+				d3.select(this)
+					.style("opacity", 0.8)
+					.style("stroke", "white")
+					.style("stroke-width", 0.3);
+			});
 
 
   // Add the X Axis
@@ -83,6 +107,13 @@ svg4.append("path")
 }
 
 lineGraph();
+
+var tip42 = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-5, 0])
+  .html(function(d) {
+    return "<strong>Count: </strong><span class='details'>" + d.trustCount + "</span>";
+  })
 //Create a new array to store json file
 var barChartData = []
 
@@ -132,7 +163,7 @@ var barsvg = d3.select("#bar").append("svg")
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate("+margin.left + "," + margin.top + ")");
-
+barsvg.call(tip42);
 barsvg.selectAll("bar")
     .data(firstBarChartData)
     .enter()
@@ -150,7 +181,23 @@ barsvg.selectAll("bar")
         return height - yScale(d.trustCount);
       })
       // .style("stroke","black")
-      .style("fill", "pink");
+      .style("fill", "#b2d8b2")
+			.on('mouseover', function(d) {
+				tip42.show(d);
+
+				d3.select(this)
+					.style("opacity", 1)
+					.style("stroke", "white")
+					.style("stroke-width", 3);
+			})
+			.on('mouseout', function(d) {
+				tip42.hide(d);
+
+				d3.select(this)
+					.style("opacity", 0.8)
+					.style("stroke", "white")
+					.style("stroke-width", 0.3);
+			});
 
       var xAxis42 = d3.axisBottom(xScale2).tickFormat(function(d, i) {
                       return trustFactor[i];
@@ -163,7 +210,20 @@ barsvg.selectAll("bar")
       // Add the Y Axis
       barsvg.append("g")
         .call(d3.axisLeft(yScale));
-    //
+    //Add the test header
+		var hsvg1 = d3.select("#header1")
+		  .append("svg")
+		  .attr("width", 1260)
+		  .attr("height", 12)
+		  .append('g');
+		hsvg1.append("text")
+				.attr("x",1060)
+				.attr("y", 10)
+				.attr("class", "title")
+				.attr("text-anchor", "start")
+				.style("font-size", "15px")
+				// .attr("font-weight", "bold")
+				.text("Nerd level: " + nerdlevel + " ");
       //Add text labels
         var xLabel = barsvg.append("text")
                         .attr("class", "label")
