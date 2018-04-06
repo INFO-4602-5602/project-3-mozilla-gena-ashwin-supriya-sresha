@@ -88,7 +88,7 @@ svg4.append("path")
   // Add the Y Axis
   svg4.append("g")
     .call(d3.axisLeft(y));
-//
+
   //Add text labels
     var xLabel = svg4.append("text")
                     .attr("class", "label")
@@ -212,18 +212,27 @@ barsvg.selectAll("bar")
       barsvg.append("g")
         .call(d3.axisLeft(yScale));
     //Add the test header
+		//
 		var hsvg1 = d3.select("#header1")
-		  .append("svg")
-		  .attr("width", 1260)
-		  .attr("height", 15)
-		  .append('g');
+			.append("svg")
+			.attr("width", 1260)
+			.attr("height", 20)
+			.append('g');
+		hsvg1.append("text")
+				.attr("x",300)
+				.attr("y", 10)
+				.attr("class", "title")
+				.attr("text-anchor", "start")
+				.style("font-size", "16px")
+				.attr("font-weight", "bold")
+				.text("Fear of privacy loss");
 		hsvg1.append("text")
 				.attr("x",1060)
 				.attr("y", 10)
 				.attr("class", "title")
 				.attr("text-anchor", "start")
-				.style("font-size", "15px")
-				// .attr("font-weight", "bold")
+				.style("font-size", "16px")
+				.attr("font-weight", "bold")
 				.text("Nerd level: " + nerdlevel + " ");
       //Add text labels
         var xLabel = barsvg.append("text")
