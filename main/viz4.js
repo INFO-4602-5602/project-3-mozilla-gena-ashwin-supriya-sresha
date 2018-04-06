@@ -138,8 +138,8 @@ barsvg.selectAll("bar")
     .enter()
     .append("rect")
     .attr("x", function(d, i) {
-        console.log(xScale(i));
-        console.log(barPadding+xScale(i));
+        // console.log(xScale(i));
+        // console.log(barPadding+xScale(i));
         return (barPadding + xScale(i));
     })
     .attr("width", (width / firstBarChartData.length - 20))

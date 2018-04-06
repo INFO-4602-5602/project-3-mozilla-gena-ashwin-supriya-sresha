@@ -234,11 +234,11 @@ function ready(nerdLevel,param,colorScale) {
   var min = extent[0];
   var mid = ( max + min ) / 2;
 
-  console.log("extent" + extent);
+  // console.log("extent" + extent);
   var max = d3.max(data.features, function(d) {
     return d.population;
   });
-  console.log(max);
+  // console.log(max);
 
   // var buckets = 10;
   // var colorScale = d3.scaleLinear()
