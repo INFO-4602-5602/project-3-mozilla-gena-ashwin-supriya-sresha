@@ -76,3 +76,9 @@
 .details {
   color: white;
 }
+
+.side1{
+		width: 50%;
+		float: left;
+		/* background-color:#AAF0D1; */
+}

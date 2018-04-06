@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Viz 1</title>
+  <title>Main</title>
   <!-- <link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="viz1.css"> -->
 	<style>
@@ -30,11 +30,55 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
   <script src="http://d3js.org/queue.v1.min.js"></script>
   <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <script>
+  var count = 0;
+  function countAnswer()
+  {
+    oCheckBox1 = form1.elements["question1"];
+    oCheckBox2 = form1.elements["question2"];
+    oCheckBox3 = form1.elements["question3"];
+    oCheckBox4 = form1.elements["question4"];
+    oCheckBox5 = form1.elements["question5"];
+    oCheckBox6 = form1.elements["question6"];
+    oCheckBox7 = form1.elements["question7"];
+    oCheckBox8 = form1.elements["question8"];
+    oCheckBox9 = form1.elements["question9"];
+    oCheckBox10 = form1.elements["question10"];
+
+    testCheckbox(oCheckBox1);
+    testCheckbox(oCheckBox2);
+    testCheckbox(oCheckBox3);
+    testCheckbox(oCheckBox4);
+    testCheckbox(oCheckBox5);
+    testCheckbox(oCheckBox6);
+    testCheckbox(oCheckBox7);
+    testCheckbox(oCheckBox8);
+    testCheckbox(oCheckBox9);
+    //alert(oCheckBox10.checked);
+    //alert(count);
+    if(oCheckBox10.checked && count>0)
+    {
+      alert("You cannot check other keywords when you check the last option");
+
+    }
+    else {
+      mapdist(count);
+    }
+  }
+  function testCheckbox(oCheckbox)
+  {
+    var checkbox_val = oCheckbox.value;
+    if (oCheckbox.checked == true)
+    {
+        count += 1;
+    }
+  }
+  </script>
 </head>
 <body>
-		<div id="viz1">
-			<div id="heatmap"></div>
-		</div>
+    <div id="viz1">
+        <div id="heatmap"></div>
+    </div>
     <div id="viz2" style="position:relative;">
 			<div id="header"></div>
       <div id="plot2"></div>
@@ -42,7 +86,40 @@
     <script src="d3-tip.js"></script>
     <script src="viz1_new.js"></script>
     <!-- <script src="viz2.js"></script> -->
+    <div id = "viz3" style="position:relative">
+    <div id = "distcurve" style="display:inline-block;float:left;width:900px">
+    </div>
 
+    <br/>
+    <br/>
+    <div id = "check" style="display:inline-block;">
+      <form id="form1" action="#">
+        <fieldset id="questions" style="width:400px">
+                <legend>Wanna know where you lie? Check all the terms you think you can explain to a friend</legend>
+                <input type="checkbox" id="question1" value="IoT" />IoT<br />
+                <input type="checkbox" id="question2" value="Connected Devices" />Connected Devices<br />
+                <input type="checkbox" id="question3" value="Botnet" />Botnet <br />
+                <input type="checkbox" id="question4" value="Blockchain" />Blockchain<br />
+                <input type="checkbox" id="question5" value="RFID" />RFID<br />
+                <input type="checkbox" id="question6" value="DDOS" />DDOS <br />
+                <input type="checkbox" id="question7" value="Zero Day" />Zero Day<br />
+                <input type="checkbox" id="question8" value="VPN" />VPN<br />
+                <input type="checkbox" id="question9" value="TOR" />TOR<br />
+                <input type="checkbox" id="question10" value="NaN" />I don't know what any of these things are<br /><br/>
+                <input type="button" value="Submit now" onclick="countAnswer()" id="submit"/>
+                <input type="button" value="Refresh" onclick="history.go(0)">
+        </fieldset>
+      </form>
+    </div>
+   </div>
+    <br/>
+    <br/>
+  <script src = "viz3.js"></script>
+  <div id="Viz4">
+    <div id="line" class="side1"></div>
+    <div id="bar" class="side1"></div>
+  </div>
 
+  <script src="viz4.js"></script>
 </body>
 </html>
