@@ -5,5 +5,4 @@ For the task of understanding what each person in Nerd-level, gives importance t
 
 We found a discrepancy in the distribution of the nerd-level. The following graph represents the distribution. We have a feild nan if a person failed to answer the particular question of nerd level.
 
-![GitHub Logo](Nerd-level distribution.png)
-<!-- Format: ![Alt Text](url) -->
+![GitHub Logo](https://github.com/INFO-4602-5602/project-3-mozilla-gena-ashwin-supriya-sresha/blob/master/Nerd-level%20distribution.png)
