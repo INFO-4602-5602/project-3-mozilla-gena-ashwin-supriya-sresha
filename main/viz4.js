@@ -60,6 +60,7 @@ svg4.append("path")
       .attr("cy", function(d){return y(d.Count);})
 			.on("click", function(d){
 				document.getElementById("bar").innerHTML = "";
+				document.getElementById("header1").innerHTML = "";
 				return barChart(d.NerdLevel);})
 			.on('mouseover', function(d) {
 				tip41.show(d);
@@ -214,7 +215,7 @@ barsvg.selectAll("bar")
 		var hsvg1 = d3.select("#header1")
 		  .append("svg")
 		  .attr("width", 1260)
-		  .attr("height", 12)
+		  .attr("height", 15)
 		  .append('g');
 		hsvg1.append("text")
 				.attr("x",1060)
