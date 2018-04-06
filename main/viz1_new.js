@@ -137,13 +137,13 @@ function heatmapChart(dataFile) {
         .style("stroke", "white")
         .style('stroke-width', 0.3)
         .on("click",function(d){
-
           var descNum = desc.indexOf(d.nerd)
           if (descNum == "0") scale =  colorScale1;
           else if (descNum == "1") scale= colorScale2;
           else if (descNum == "2") scale= colorScale3;
           else if (descNum == "3") scale= colorScale4;
           else if (descNum == "4") scale= colorScale5;
+					document.getElementById("header").innerHTML = "";
           ready(d.nerd,d.params,scale)
         })
         .on('mouseover', function(d) {
@@ -189,9 +189,9 @@ var margin = {
 
 
 
-var color = d3.scaleThreshold()
+var colorScale = d3.scaleThreshold()
   .domain([10000, 100000, 500000, 1000000, 5000000, 10000000, 50000000, 100000000, 500000000, 1500000000])
-  .range(["rgb(247,251,255)", "rgb(222,235,247)", "rgb(198,219,239)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)", "rgb(33,113,181)", "rgb(8,81,156)", "rgb(8,48,107)", "rgb(3,19,43)"]);
+  .range(["#fef0bc","#fee690","#fedc64","#fed74e","#fece22","#fec809"]);
 
 var path = d3.geoPath();
 
@@ -209,9 +209,9 @@ var projection = d3.geoMercator()
 var path = d3.geoPath().projection(projection);
 
 svg1.call(tip);
-
-
-function ready(nerdLevel="Technically Savvy",param="User Reviews",colorScale) {
+var nerdLevel="Technically Savvy";
+var param="User Reviews";
+function ready(nerdLevel,param,colorScale) {
 
   d3.json('world_countries.json', function(error, data) {
     d3.csv('viz2.csv', function(error, population) {
@@ -288,9 +288,22 @@ function ready(nerdLevel="Technically Savvy",param="User Reviews",colorScale) {
     // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
     .attr("class", "names")
     .attr("d", path);
+		var hsvg = d3.select("#header")
+		  .append("svg")
+		  .attr("width", width)
+		  .attr("height", 40)
+		  .append('g');
+		hsvg.append("text")
+		    .attr("x", (width + margin.left + margin.right) / 2)
+		    .attr("y", 15)
+		    .attr("class", "title")
+		    .attr("text-anchor", "middle")
+		    .style("font-size", "16px")
+		    .attr("font-weight", "bold")
+		    .text("Distribution of " + nerdLevel + " for " + param + " option.");
 
      });
        });
 }
 
-// ready();
+ready(nerdLevel,param,colorScale);
