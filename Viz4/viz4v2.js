@@ -71,7 +71,7 @@ svg4.append("path")
                     .attr("class", "label")
                     .text("Nerdiness")
                     .attr("x", width - 60)
-                    .attr("y", height -10);
+                    .attr("y", height +30);
 
     var yLabel = svg4.append("text")
                     .attr("class", "label")
@@ -88,12 +88,14 @@ lineGraph();
 //Create a new array to store json file
 var barChartData = []
 
-var trustFactor = ["creators","friends/fam","govt","media","orgs","unsure","unanswered"];
+var trustFactor = ["","creators","","friends/fam","","govt","","media","","orgs","","unsure","","unanswered",""];
+var blank = ["","","","","","","",""];
+
 // set the dimensions and margins of the graph
 var margin = {top: 50, right: 20, bottom: 30, left: 100};
-var width = 750 - margin.left - margin.right
+var width = 700 - margin.left - margin.right
 var height = 450 - margin.top - margin.bottom;
-var barPadding = 5;
+var barPadding = 10;
 var nerdGroup = "Luddite"
 
 function nerdSelection(nerdGroup){
@@ -111,8 +113,13 @@ var firstBarChartData = nerdSelection(nerdlevel);
 
 // set the ranges
 var xScale = d3.scaleLinear()
-.domain([0,firstBarChartData.length])
+.domain([0,7,firstBarChartData.length])
 .range([0, width]);
+
+var xScale2 = d3.scaleLinear()
+.domain([0,7,firstBarChartData.length])
+.range([0, width]);
+
 var yScale = d3.scaleLinear()
 .domain([0, d3.max(firstBarChartData, function(d) {
   return d.trustCount;
@@ -127,29 +134,33 @@ var barsvg = d3.select("#bar").append("svg")
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate("+margin.left + "," + margin.top + ")");
+
 barsvg.selectAll("bar")
     .data(firstBarChartData)
     .enter()
     .append("rect")
     .attr("x", function(d, i) {
-        return xScale(i);
+        console.log(xScale(i));
+        console.log(barPadding+xScale(i));
+        return (barPadding + xScale(i));
     })
-    .attr("width", width / firstBarChartData.length - barPadding)
+    .attr("width", (width / firstBarChartData.length - 20))
     .attr("y",function(d) {
         return yScale(d.trustCount);
     })
     .attr("height", function(d){
         return height - yScale(d.trustCount);
       })
+      // .style("stroke","black")
       .style("fill", "pink");
 
-      var xAxis4 = d3.axisBottom(xScale).tickFormat(function(d, i) {
+      var xAxis42 = d3.axisBottom(xScale2).tickFormat(function(d, i) {
                       return trustFactor[i];
                     });
       // Add the X Axis
       barsvg.append("g")
         .attr("transform","translate(0, " + height +")")
-        .call(xAxis4);
+        .call(xAxis42);
 
       // Add the Y Axis
       barsvg.append("g")
@@ -160,7 +171,19 @@ barsvg.selectAll("bar")
                         .attr("class", "label")
                         .text("Trust Factor")
                         .attr("x", width - 60)
-                        .attr("y", height - 10);
+                        .attr("y", height +30);
+
+      // var Xlabel = barsvg.selectAll("text.xAxis")
+      //              .data(firstBarChartData)
+      //              .enter()
+      //              .append("text")
+      //              .text(function(d){return d.trust;})
+      //              .style("anchor","end")
+      //              .attr("y",height+20)
+      //              .attr("x", function(d,i){
+      //                return (i * (width/firstBarChartData.length)) + ((width/firstBarChartData.length - (barPadding*15)) /2);
+      //              });
+
 
         var yLabel = barsvg.append("text")
                         .attr("class", "label")
