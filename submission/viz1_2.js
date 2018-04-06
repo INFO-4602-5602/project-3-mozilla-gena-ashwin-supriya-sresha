@@ -72,32 +72,23 @@ function heatmapChart(dataFile) {
 			var colorScale1 = d3.scaleQuantile()
 				.domain([0, mid,
 					// (d3.min(data, function(d) {return d.score;}) + d3.max(data, function(d) {return d.score;}))/2,
-					 d3.max(data, function(d) {return d.score;})
-				])
+					 d3.max(data, function(d) {return d.score;})])
 				.range(colors1);
 			var colorScale2 = d3.scaleQuantile()
 			.domain([0, mid,
-				 d3.max(data, function(d) {
-				return d.score;})
-			])
+				 d3.max(data, function(d) {return d.score;})])
 				.range(colors2);
 			var colorScale3 = d3.scaleQuantile()
 			.domain([0, mid,
-				 d3.max(data, function(d) {
-				return d.score;})
-			])
+				 d3.max(data, function(d) {return d.score;})])
 				.range(colors3);
 			var colorScale4 = d3.scaleQuantile()
 			.domain([0, mid,
-				 d3.max(data, function(d) {
-				return d.score;})
-			])
+				 d3.max(data, function(d) {return d.score;})])
 				.range(colors4);
 			var colorScale5 = d3.scaleQuantile()
 			.domain([0, mid,
-				 d3.max(data, function(d) {
-				return d.score;})
-			])
+				 d3.max(data, function(d) {return d.score;})])
 				.range(colors5);
 
       var boxes = svg.selectAll("rect")
