@@ -2,7 +2,7 @@ var formatAsPercentage = d3.format(".3");
 // Set tooltips
 var tip1 = d3.tip()
   .attr('class', 'd3-tip')
-  .offset([100, 0])
+  .offset([-7, 0])
   .html(function(d) {
     return "<strong>Score: </strong><span class='details'>" + formatAsPercentage((d.score).toFixed(3)) + "</span>";
   })
@@ -169,7 +169,7 @@ var format = d3.format(".3");
 // Set tooltips
 var tip = d3.tip()
   .attr('class', 'd3-tip')
-  .offset([100, 0])
+  .offset([-10, 0])
   .html(function(d) {
     return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Score: </strong><span class='details'>" + format((d.population).toFixed(3)) + "</span>";
   })
