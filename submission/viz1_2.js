@@ -7,7 +7,7 @@ var tip1 = d3.tip()
     return "<strong>Score: </strong><span class='details'>" + formatAsPercentage((d.score).toFixed(3)) + "</span>";
   })
 
-var margin = {top: 30, right: 0, bottom: 100, left: 120},
+var margin = {top: 30, right: 0, bottom: 100, left: 140},
   width = 1300 - margin.left - margin.right,
   height = 670 - margin.top - margin.bottom,
   gridSize = Math.floor(width / 10),
