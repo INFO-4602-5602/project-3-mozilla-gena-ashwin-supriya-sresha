@@ -228,7 +228,7 @@ barsvg.selectAll("bar")
 				.text("Fear of privacy loss");
 
 		hsvg1.append("text")
-				.attr("x",1060)
+				.attr("x",1000)
 				.attr("y", 15)
 				.attr("class", "title")
 				.attr("text-anchor", "start")
