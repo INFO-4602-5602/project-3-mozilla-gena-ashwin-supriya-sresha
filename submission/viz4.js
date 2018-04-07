@@ -238,7 +238,7 @@ barsvg.selectAll("bar")
       //Add text labels
         var xLabel = barsvg.append("text")
                         .attr("class", "label")
-                        .text("Trust Factor")
+                        .text("Trusted Groups")
                         .attr("x", width - 350)
                         .attr("y", height +40);
 
