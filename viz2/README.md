@@ -13,11 +13,11 @@ We **normalised** the weighted score based on order, so that we do not get affec
 
 Each box in the heat map represents the distribution of the response across the whole world.
 
-_References_ : [heatmap](https://bl.ocks.org/ch-bu/e9319571847e425811795855451caa2d)
+_References_ : [heatmap](http://bl.ocks.org/tjdecke/5558084)
 
 
 <h3> Visualization 2 : World distribution of Nerd-level for a particular feature option. </h3>
-This is an extenstion from previous visualization with the calculation of the weighted average in the similar fashion. So it is dependent on Viz 1, and on selection of any particular box, it repopulated the world map with regions having distribution for that particular country normalised by the number of people in the nerd-level who took the survey from that country. This makes sure, not to over weigh the responses from heavily populated countries like China, India , USA and give equal importance to the responses from the country. 
+This is an extenstion from previous visualization with the calculation of the weighted average in the similar fashion. So it is dependent on Viz 1, and on selection of any particular box, it repopulated the world map with regions having distribution for that particular country normalised by the number of people in the nerd-level who took the survey from that country. This makes sure, not to over weigh the responses from heavily populated countries like China, India , USA and give equal importance to the responses from the country.
 
 It is particularly interesting to see responses from most of the countries and looking at the distribution will give a sense to the technology companies on what to prefer in a particular country for a particular type of nerd-level. Eventually, if a company concentrates on delivering what a user expects, the product will be hit and with more details on country distribution, it gives more market information.
 
