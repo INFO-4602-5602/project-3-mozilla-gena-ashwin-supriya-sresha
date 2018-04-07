@@ -228,13 +228,13 @@ barsvg.selectAll("bar")
 				.text("Fear of privacy loss");
 
 		hsvg1.append("text")
-				.attr("x",1000)
+				.attr("x",800)
 				.attr("y", 15)
 				.attr("class", "title")
 				.attr("text-anchor", "start")
 				.style("font-size", "16px")
 				.attr("font-weight", "bold")
-				.text("Nerd level: " + nerdlevel + " ");
+				.text("For Nerd level: " + nerdlevel + ", which groups are most trusted for education on security, safety, and privacy protection online? ");
       //Add text labels
         var xLabel = barsvg.append("text")
                         .attr("class", "label")
