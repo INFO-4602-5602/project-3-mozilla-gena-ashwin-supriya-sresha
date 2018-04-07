@@ -10,7 +10,7 @@ var nerdiness = ["","Ultra Nerd", "Technically Savvy","Average User","Luddite","
 
 function lineGraph(){
 // set the dimensions and margins of the graph
-var margin = {top: 50, right: 20, bottom: 50, left: 70};
+var margin = {top: 100, right: 20, bottom: 50, left: 70};
 var width = 700 - margin.left - margin.right
 var height = 450 - margin.top - margin.bottom;
 var gridsize = width/6;
@@ -216,7 +216,7 @@ barsvg.selectAll("bar")
 		var hsvg1 = d3.select("#header1")
 			.append("svg")
 			.attr("width", 1260)
-			.attr("height", 20)
+			.attr("height", 42)
 			.append('g');
 		hsvg1.append("text")
 				.attr("x",300)
@@ -227,14 +227,24 @@ barsvg.selectAll("bar")
 				.attr("font-weight", "bold")
 				.text("Fear of privacy loss");
 
+
 		hsvg1.append("text")
-				.attr("x",800)
+				.attr("x",845)
 				.attr("y", 15)
 				.attr("class", "title")
 				.attr("text-anchor", "start")
 				.style("font-size", "16px")
 				.attr("font-weight", "bold")
-				.text("For Nerd level: " + nerdlevel + ", which groups are most trusted for education on security, safety, and privacy protection online? ");
+				.text("For Nerd level: " + nerdlevel + ", which groups are most trusted for");
+
+        hsvg1.append("text")
+    				.attr("x",845)
+    				.attr("y", 29)
+    				.attr("class", "title")
+    				.attr("text-anchor", "start")
+    				.style("font-size", "16px")
+    				.attr("font-weight", "bold")
+    				.text("education on security, safety, and privacy protection online?  ");
       //Add text labels
         var xLabel = barsvg.append("text")
                         .attr("class", "label")
