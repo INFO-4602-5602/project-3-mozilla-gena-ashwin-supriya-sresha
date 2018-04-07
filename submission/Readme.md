@@ -79,8 +79,14 @@ The above line graph gives the viewer the option to click on one of the points. 
 <b>Sreesha: </b> Data preprocessing, d3 visualization,  reporting<br/>
 <b>Supriya: </b>d3 visualization, reporting<br/>
 
+
+
+
 <h3>How to Run</h3>
 You can open the 'submission' folder and start the server using python.
->python3 -m http.server
-or the code is hosted 
-[here] (http://ashwinsankaralingam.com/mozilla)
+
+>python -m http.server
+
+or the code is _hosted_ 
+
+[here](http://ashwinsankaralingam.com/mozilla)
