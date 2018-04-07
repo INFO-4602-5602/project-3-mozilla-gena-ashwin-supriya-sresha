@@ -80,4 +80,7 @@ The above line graph gives the viewer the option to click on one of the points. 
 <b>Supriya: </b>d3 visualization, reporting<br/>
 
 <h3>How to Run</h3>
-You can open the 'submission' folder and run the index.html file in a web browser of your choice.
+You can open the 'submission' folder and start the server using python.
+>python3 -m http.server
+or the code is hosted 
+[here] (http://ashwinsankaralingam.com/mozilla)
