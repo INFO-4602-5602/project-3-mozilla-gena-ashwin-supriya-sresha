@@ -65,7 +65,7 @@ The above line graph gives the viewer the option to click on one of the points. 
  </ul>
  <br/>
 
-<h2>Above and Beyond:</h2> 
+<h3>Above and Beyond:</h3> 
 <ul>
 <li>Semantic Zoom: We did explore multiple levels of information in viz1, viz2, and viz4. When you click on a sqaure on viz1 you can see the global ditribution of people of a paticular nerdiness favouring a particular feature. In viz4 you can see the distribution of the users of a specific nerdiness over the factors they trust to protect their privacy.</li>
 <li>Missing Data: In viz2, the countries dont have any associated distribution data are marked in black. In viz 4 we have incorporated a new data value for nerdiness, "undescribed", for those people that didnt wish to declare their level of nerdiness. We have also included an additional "unanswered" in the bar chart data to depict the count of people that did not actually answer that question.</li>
