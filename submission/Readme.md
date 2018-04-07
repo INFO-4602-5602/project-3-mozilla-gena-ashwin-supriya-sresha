@@ -45,7 +45,6 @@ For this visualization, we examined the answers to survey question 5.  The origi
 <li>No answer 13.919 (7.22%)</li>
 </ul>
 
-
 For the users who described their “biggest fear as we move towards a more connected future” as “the loss of privacy”, our line graph depicts how many of them were:<br/>
 <ul>
 <li>Ultra Nerds: 10205 (12.6%)</li>
@@ -54,7 +53,7 @@ For the users who described their “biggest fear as we move towards a more conn
 <li>Luddite: 2343 (2.9%)</li>
 <li>Undescribed: 808 (0.01%)</li>
 </ul>
-<br>
+
 <h4>The Bar Graph</h4>
 The above line graph gives the viewer the option to click on one of the points.  When the viewer selects a point, the selected point produces a bar graph showing the answer to Survey Question 7: “Who do you most trust to help you learn how to protect your safety, security and privacy online?”<br/>
 <ul>
