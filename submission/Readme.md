@@ -44,7 +44,7 @@ For this visualization, we examined the answers to survey question 5.  The origi
 <li>Other 15,740  (8.17%)</li>
 <li>No answer 13.919 (7.22%)</li>
 </ul>
-[viz4-line.csv: The source data for this line graph was a simple csv with 2 columns, “NerdLevel” and “Count”, and 5 rows of data.]
+
 
 For the users who described their “biggest fear as we move towards a more connected future” as “the loss of privacy”, our line graph depicts how many of them were:<br/>
 <ul>
@@ -54,9 +54,10 @@ For the users who described their “biggest fear as we move towards a more conn
 <li>Luddite: 2343 (2.9%)</li>
 <li>Undescribed: 808 (0.01%)</li>
 </ul>
+<br>
 <h4>The Bar Graph</h4>
 The above line graph gives the viewer the option to click on one of the points.  When the viewer selects a point, the selected point produces a bar graph showing the answer to Survey Question 7: “Who do you most trust to help you learn how to protect your safety, security and privacy online?”<br/>
-<ul>>
+<ul>
 <li>The makers of connected devices and apps </li>
 <li>My friends and family</li>
 <li>Non-profit organizations like Mozilla and Consumer Reports</li>
@@ -65,17 +66,13 @@ The above line graph gives the viewer the option to click on one of the points. 
  </ul>
  <br/>
 
-[viz4-bar.json: The source data for this line graph was created from a simple csv with 3 columns, “nerdLevel”, “trust” and “trustCount”, and 35 rows of data summarized from the original 192K records.]
-
-
 <h2>Above and Beyond:</h2> 
 <ul>
-<li>Uncertainty: viz3 pred curve</li>
-<li>Semantic Zoom: viz1, viz2, viz4</li>
-<li>Missing Data: viz4</li>
-<li>Perceptually-Informed Design:</li>
-<li>Coordinated Views: 1,2,4</li>
-<li>Style: Keep the style consistent across all your views, with an eye towards intelligently applying visual design.</li></ul>
+<li>Semantic Zoom: We did explore multiple levels of information in viz1, viz2, and viz4. When you click on a sqaure on viz1 you can see the global ditribution of people of a paticular nerdiness favouring a particular feature. In viz4 you can see the distribution of the users of a specific nerdiness over the factors they trust to protect their privacy.</li>
+<li>Missing Data: In viz2, the countries dont have any associated distribution data are marked in black. In viz 4 we have incorporated a new data value for nerdiness, "undescribed", for those people that didnt wish to declare their level of nerdiness. We have also included an additional "unanswered" in the bar chart data to depict the count of people that did not actually answer that question.</li>
+<li>Perceptually-Informed Design: In viz 1 and viz 2 we have used hues to depict the variation in count. In viz 3 we have created a pop out by placing a red dot at the position you lie once you've answered the quiz.</li>
+<li>Coordinated Views: There is a coordination between viz1 and viz2. As you click on a cell in viz1, viz2 get updated accordingly. In viz4 there is a coordination between both the graphs. As you click on a point in the line grpah, the bar chart gets updated.</li>
+</ul>
 
 <h3>Team Roles</h3>
 <b>Ashwin: </b> Data preprocessing, d3 visualization, reporting<br/>
