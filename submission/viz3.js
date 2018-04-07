@@ -170,12 +170,12 @@ d3.json("viz3_pred.json" , function(error,data){
         .attr("fill","red");
 
 
-        var text = svg31.append("text");
-                           //Add the text attributes
-        var textLabels = text.attr("x",  (nerdlevel*gridsize)+0.2)
-                .attr("y", yScale(countterms+0.2))
-                .text("You are here")
-                 .attr("fill", "red");
+        // var text = svg31.append("text");
+        //                    //Add the text attributes
+        // var textLabels = text.attr("x",  (nerdlevel*gridsize)+0.2)
+        //         .attr("y", yScale(countterms+0.2))
+        //         .text("You are here")
+        //          .attr("fill", "red");
   });
 
 }
