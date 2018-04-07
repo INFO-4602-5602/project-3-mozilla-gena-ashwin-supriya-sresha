@@ -160,7 +160,7 @@ d3.json("viz3_pred.json" , function(error,data){
       }
     }
     console.log(countterms);
-    svg31.selectAll("circle")
+    var circle = svg31.selectAll("circle")
         .data(data)
         .enter()
         .append("circle")
@@ -168,6 +168,14 @@ d3.json("viz3_pred.json" , function(error,data){
         .attr("cx", nerdlevel*gridsize)
         .attr("cy", yScale(countterms))
         .attr("fill","red");
+
+
+        var text = svg31.append("text");
+                           //Add the text attributes
+        var textLabels = text.attr("x",  (nerdlevel*gridsize)+0.2)
+                .attr("y", yScale(countterms+0.2))
+                .text("You are here")
+                 .attr("fill", "red");
   });
 
 }
