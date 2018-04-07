@@ -74,16 +74,18 @@
 		<br/>
 		<div>
 			<h2 style="margin-left: 20px;">Visualization 3: Distribution curves for displaying the self declared level of nerdiness (True) and the prediction we make for the level of nerdiness (Predicted) </h2>
-			<p style="margin-left: 30px;">Take the quiz beside the graph to know which description you fall under</p>
+			<p style="margin-left: 30px;">The "True" curve is an absolute count on the users that took the quiz grouped on the class they belonged to.
+        The "Predicted" curve works on the count of technical words they knew. <br/>
+        (>=6 : Ultra Nerd, >=3 : Technically Savvy, >=1 : Average User, 0 : Luddite)</p>
     <div id = "viz3" style="position:relative;height:450px">
-    <div id = "distcurve" style="display:inline-block;float:left;width:900px">
+    <div id = "distcurve" style="display:inline-block;float:left;width:800px">
     </div>
 
     <br/>
     <br/>
     <div id = "check" style="display:inline-block;">
       <form id="form1" action="#">
-        <fieldset id="questions" style="width:400px">
+        <fieldset id="questions" style="width:500px;">
                 <legend>Wanna know where you lie? Check all the terms you think you can explain to a friend</legend>
                 <input type="checkbox" id="question1" value="IoT" />IoT<br />
                 <input type="checkbox" id="question2" value="Connected Devices" />Connected Devices<br />
