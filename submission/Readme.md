@@ -67,10 +67,10 @@ The above line graph gives the viewer the option to click on one of the points. 
 
 <h3>Above and Beyond:</h3> 
 <ul>
-<li>Semantic Zoom: We did explore multiple levels of information in viz1, viz2, and viz4. When you click on a sqaure on viz1 you can see the global ditribution of people of a paticular nerdiness favouring a particular feature. In viz4 you can see the distribution of the users of a specific nerdiness over the factors they trust to protect their privacy.</li>
-<li>Missing Data: In viz2, the countries dont have any associated distribution data are marked in black. In viz 4 we have incorporated a new data value for nerdiness, "undescribed", for those people that didnt wish to declare their level of nerdiness. We have also included an additional "unanswered" in the bar chart data to depict the count of people that did not actually answer that question.</li>
-<li>Perceptually-Informed Design: In viz 1 and viz 2 we have used hues to depict the variation in count. In viz 3 we have created a pop out by placing a red dot at the position you lie once you've answered the quiz.</li>
-<li>Coordinated Views: There is a coordination between viz1 and viz2. As you click on a cell in viz1, viz2 get updated accordingly. In viz4 there is a coordination between both the graphs. As you click on a point in the line grpah, the bar chart gets updated.</li>
+<li><b>Semantic Zoom:</b> We did explore multiple levels of information in viz1, viz2, and viz4. When you click on a sqaure on viz1 you can see the global ditribution of people of a paticular nerdiness favouring a particular feature. In viz4 you can see the distribution of the users of a specific nerdiness over the factors they trust to protect their privacy.</li>
+<li><b>Missing Data:</b> In viz2, the countries dont have any associated distribution data are marked in black. In viz 4 we have incorporated a new data value for nerdiness, "undescribed", for those people that didnt wish to declare their level of nerdiness. We have also included an additional "unanswered" in the bar chart data to depict the count of people that did not actually answer that question.</li>
+<li><b>Perceptually-Informed Design:</b> In viz 1 and viz 2 we have used hues to depict the variation in count. In viz 3 we have created a pop out by placing a red dot at the position you lie once you've answered the quiz.</li>
+<li><b>Coordinated Views:</b> There is a coordination between viz1 and viz2. As you click on a cell in viz1, viz2 get updated accordingly. In viz4 there is a coordination between both the graphs. As you click on a point in the line grpah, the bar chart gets updated.</li>
 </ul>
 
 <h3>Team Roles</h3>
